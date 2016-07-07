@@ -5,35 +5,58 @@ html {
     min-height: 100%;
 }
 body {
+    color: black;
     /* Top padding for the navbar */
     padding-top: 50px;
 
     /* Margin bottom by footer height */
     margin-bottom: 60px;
 }
+
+
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 60px;
-    background-color: #580d0d;
+    color: white;
 }
 
 /* Jumbotron */
 
-.jumbotron {
+#title {
+    position: relative;
     margin-top: 0px;
-    background-image: url('https://dl.dropboxusercontent.com/u/909005/home_banner.jpeg');
+   /* background-image: url('https://dl.dropboxusercontent.com/u/909005/home_banner.jpeg');
     background-position: 0% 25%;
     background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    text-shadow: black 0.3em 0.3em 0.3em;
-    height: 130px;
+    background-repeat: no-repeat; */
+    background-color: transparent;
+    color: black;
+    /* text-shadow: black 0.3em 0.3em 0.3em; */
+    height: 120px;
 }
 
 /* Main Text Container */
 #mainContainer {
-    min-height: 500px;
+    min-height: 800px;
+    background: rgba(0,0,0, 0);
+}
+
+.bkg {
+    position: fixed;
+    width: 100%;
+    background-image: url("../images/london4.jpeg");
+    height: 20000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+/* Change background on width */
+@media (min-width: 1300px) {
+    .bkg {
+        background-image: url("../images/london3.jpeg");
+    }
 }
