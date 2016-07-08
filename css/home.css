@@ -1,0 +1,114 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    color: black;
+    /* Top padding for the navbar */
+    padding-top: 50px;
+
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    color: black;
+}
+
+/* Jumbotron */
+
+#title {
+    position: relative;
+    margin-top: 0px;
+   /* background-image: url('https://dl.dropboxusercontent.com/u/909005/home_banner.jpeg');
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: transparent;
+    color: black;
+    /* text-shadow: black 0.3em 0.3em 0.3em; */
+    height: 120px;
+}
+
+/* Main Text Container */
+#mainContainer {
+    background: rgba(255,255,255, 0.7);
+}
+
+.bkg {
+    position: fixed;
+    width: 100%;
+    background-image: url("../images/london4.jpeg");
+    height: 20000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+/* Change background on width */
+@media (min-width: 1300px) {
+    .bkg {
+        background-image: url("../images/london3.jpeg");
+    }
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: inherit;
+    top: 0;
+    left: 0;
+    min-width: 1024px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+}
+
+/* CAROUSEL IMAGES
+-------------------------------------------------- */
+#slide_01 {
+    background: url("../images/dogs.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

@@ -16,7 +16,6 @@ body {
 
 .footer {
     position: absolute;
-    bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 60px;
@@ -40,8 +39,7 @@ body {
 
 /* Main Text Container */
 #mainContainer {
-    min-height: 800px;
-    background: rgba(0,0,0, 0);
+    background: rgba(255,255,255, 0.7);
 }
 
 .bkg {
