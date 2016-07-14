@@ -11,16 +11,23 @@ body {
 
     /* Margin bottom by footer height */
     margin-bottom: 60px;
+
+    background-color: #F5F5F5;
 }
 
-
 .footer {
-    position: absolute;
+    position: relative;
+    /* margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-top:20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.footer-container {
+    margin-bottom: 0px;
     bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 60px;
-    color: black;
 }
 
 /* Jumbotron */
@@ -38,9 +45,8 @@ body {
     height: 120px;
 }
 
-/* Main Text Container */
-#mainContainer {
-    background: rgba(255,255,255, 0.7);
+.white-bkg {
+    background-color: white;
 }
 
 .bkg {
@@ -66,7 +72,7 @@ body {
 /* Carousel base class */
 .carousel {
     height: 500px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
