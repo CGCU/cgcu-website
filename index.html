@@ -10,6 +10,9 @@
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
         <!-- Stylesheet -->
         <link href="css/navbar.css" rel="stylesheet">
         <link href="css/home.css" rel="stylesheet">
@@ -57,7 +60,22 @@
                             </li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#">Link</a></li>
+                            <!-- Facebook icon & link, with facebook blue color -->
+                            <!-- target="_blank" opens in new tab
+                                  and rel="noopener noreferrer" protects against _blank vunerability -->
+                            <li><a target="_blank" rel="noopener noreferrer"
+                                   href="http://www.facebook.com/IC.CGCU/">
+                                <i class="fa fa-facebook-official fa-2x header-icon" style="color: #3B5998"></i>
+                                <span id="facebook-navbar"></span>
+                            </a></li>
+                            <!-- Twitter icon & link, with facebook blue color -->
+                            <li><a target="_blank" rel="noopener noreferrer"
+                                   href="http://twitter.com/ic_cgcu/">
+                                <i class="fa fa-twitter-square fa-2x header-icon" style="color: #55ACEE"></i>
+                                <span id="twitter-navbar"></span>
+                            </a></li>
+
+                            <!-- DropDown Template Commented Out
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
@@ -67,7 +85,9 @@
                                     <li role="separator" class="divider"></li>
                                     <li><a href="#">Separated link</a></li>
                                 </ul>
+
                             </li>
+                            <!-- End DropDown Template -->
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -133,12 +153,9 @@
 
         <!-- TITLE
         <div class="container" id="title">
-            <h2>Contact Us</h2>
+            <h2>Title</h2>
         </div>
-        -->
-
         <!-- END TITLE -->
-
 
 
         <div class="container well white-bkg">
@@ -147,61 +164,58 @@
             <p>Aliquam interdum libero et mi interdum, id varius diam egestas. Praesent varius est ligula, at condimentum est elementum eu. Donec ligula elit, accumsan a tincidunt nec, auctor sit amet ex. Integer in ornare elit. Maecenas aliquet metus mauris, id aliquam nulla facilisis nec. Donec rhoncus quis felis et mattis. Sed nunc tellus, sagittis vel venenatis eu, elementum a felis. </p>
 
             <p>Integer vehicula tincidunt tortor in blandit. In hac habitasse platea dictumst. Integer sit amet risus augue. Aliquam luctus ullamcorper purus, at tempor arcu consectetur id. Duis vestibulum aliquam auctor. Nunc volutpat vulputate feugiat. Maecenas porta feugiat leo, vitae placerat mauris placerat quis. Nunc consequat mauris neque, ac dapibus erat eleifend quis. Suspendisse at tellus velit. </p>
-
-            <p>Maecenas diam lectus, fermentum sit amet varius sit amet, bibendum vel elit. Pellentesque vel massa efficitur, cursus neque id, fermentum orci. Integer sit amet iaculis odio, eu dapibus eros. Suspendisse hendrerit elit id mi cursus laoreet. Cras ac nisi pharetra, iaculis nisi ut, sollicitudin nisl. Sed fermentum vulputate nulla faucibus faucibus. Duis ut consequat tellus, ac pretium urna. Pellentesque pulvinar aliquam nunc, vitae auctor augue mattis ultrices. Ut a sem condimentum, venenatis felis sed, commodo augue. Quisque pellentesque luctus placerat. Donec rutrum turpis nisi, et cursus odio ultrices eget. Sed orci mauris, ornare et magna sit amet, hendrerit ullamcorper quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum fringilla purus vel commodo. Curabitur ac aliquet est. Sed pretium libero eu purus aliquam, eget dapibus ex interdum.</p>
-
-            <p>Sed maximus ligula quis metus tempor ultricies. Aliquam eu augue volutpat, pharetra purus quis, congue risus. Pellentesque nec leo justo. Phasellus ac vestibulum risus. Praesent dapibus aliquam magna, id commodo mi vehicula sagittis. Donec scelerisque purus lobortis fringilla malesuada. Etiam sollicitudin iaculis tellus quis vulputate. Nulla facilisi. Maecenas mattis justo ut arcu cursus, a dictum tellus tristique. Praesent tincidunt nisl ac tellus vehicula, a luctus lorem eleifend. Aenean ultricies mi in turpis tincidunt, vel commodo nulla venenatis. Phasellus id mollis nisl. </p>
         </div>
 
-        <div class="container" style="padding-top: 20px">
+        <!-- CARDS (3 Panels in BS3) -->
+        <div class="container cards">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-4 ">
                     <div class="thumbnail">
+                        <!-- Image size must be 500x250 -->
                         <img src="http://placehold.it/500x250/EEE">
                         <div class="caption">
                             <h4>Thumbnail label</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                            <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+                            <a href="#" class="btn btn-primary" role="button">Button</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-4">
                     <div class="thumbnail">
+                        <!-- Image size: 500x250 -->
                         <img src="http://placehold.it/500x250/EEE">
                         <div class="caption">
                             <h4>Thumbnail label</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                            <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+                            <a href="#" class="btn btn-primary" role="button">Button</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-md-4">
                     <div class="thumbnail">
+                        <!-- Image size must be 500x250 -->
                         <img src="http://placehold.it/500x250/EEE">
                         <div class="caption">
                             <h4>Thumbnail label</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                            <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+                            <a href="#" class="btn btn-primary" role="button">Button</a>
                         </div>
                     </div>
                 </div>
             </div><!--/row-->
         </div><!--/container -->
+        <!-- END CARDS -->
+
 
         <!-- FOOTER -->
         <footer class="footer">
-            <!--
-            <div class="container">
-                <p class="text-muted">Place sticky footer content here.</p>
-            </div>
-            -->
-
             <div class="container well white-bkg footer-container">
-                <img class="img-responsive" src="images/footer.png" alt="Footer Divider" width="1520" height="295">
+                <img class="img-responsive" src="images/footer.png" alt="Footer Divider" width="1253" height="232">
+                <div class="container">
+                </div>
             </div>
-
         </footer>
         <!-- END FOOTER -->
 
@@ -210,9 +224,12 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+    <!-- Bootstrap: Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
-    <!-- JavaScript -->
-    <script src="js/home.js"></script>
+
+    <!-- Main JavaScript -->
+    <script type="text/javascript" src="js/main.js"></script>
+
 
 </html>
