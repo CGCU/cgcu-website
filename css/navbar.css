@@ -1,7 +1,33 @@
+/*
+ * Navbar stylesheet contains all CSS relating to the navbar
+ * including the contents of the navbar (e.g. social media icons)
+ * Used alongside the navbar javascript
+ */
+
+/* General Navbar styling/positioning */
 .navbar-default {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.header-icon {
+    /* position: absolute; After 768px only */
+    /* margin-top: -4px; After 768px only */
+}
+
+/* RESPONSIVE CSS */
+
+/* repositions the social media icons
+ * within the navbar when NOT collapsed.
+ */
+@media (min-width: 768px) {
+    .header-icon {
+        position: absolute;
+        margin-top: -4px;
+    }
+}
+
+
 
 /* NAVBAR COLOURING
  * http://work.smarchal.com/twbscolor/css/e74c3cc0392becf0f1ffbbbc0

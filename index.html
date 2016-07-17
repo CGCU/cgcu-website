@@ -3,11 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
         <!-- To ensure proper rendering and touch zooming on mobile, add the viewport meta tag to your <head>. -->
-
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- maximum-scale=1, user-scalable=no" make it so that the page cannot be zoomed on touch devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=no">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!-- Page Title -->
         <title>City and Guilds College Union</title>
 
         <!-- Bootstrap -->
@@ -17,8 +18,8 @@
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
         <!-- Stylesheet -->
-        <link href="css/navbar.css" rel="stylesheet">
         <link href="css/home.css" rel="stylesheet">
+        <link href="css/navbar.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,7 +30,6 @@
         <![endif]-->
 
         <!-- NAVBAR -->
-
         <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
             <div class="container">
                 <div class="container-fluid">
@@ -62,6 +62,7 @@
                                 </ul>
                             </li>
                         </ul>
+                        <!-- Fixed right side of the navbar -->
                         <ul class="nav navbar-nav navbar-right">
                             <!-- Facebook icon & link, with facebook blue color -->
                             <!-- target="_blank" opens in new tab
@@ -100,8 +101,7 @@
 
     </head>
 
-    <!-- Carousel
-================================================== -->
+    <!-- CAROUSEL -->
     <div></div>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -150,16 +150,17 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div><!-- /.carousel -->
+    </div>
+
+    <!-- END CAROUSEL -->
 
     <body>
 
-        <!-- TITLE
+        <!-- TITLE (commented out)
         <div class="container" id="title">
             <h2>Title</h2>
         </div>
         <!-- END TITLE -->
-
 
         <div class="container well white-bkg">
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut eros non sem volutpat vestibulum eget eget nibh. Curabitur convallis sapien sem, sed dapibus tellus mollis sed. Sed nec mattis mauris. Aenean ultricies ornare dolor. Proin quis tempor leo. Mauris fermentum venenatis est, sit amet gravida turpis convallis a. Ut consectetur feugiat lectus, eu congue ante ultrices non. Pellentesque elit ex, elementum et justo nec, venenatis sagittis mauris. Nulla facilisis ornare tellus, id dapibus erat varius sed. Phasellus non tempor lectus. Maecenas mi lorem, rhoncus sit amet massa eget, faucibus viverra turpis. Ut sodales interdum lectus fermentum pretium. Ut ac pharetra quam. </p>
@@ -226,15 +227,18 @@
 
     </body>
 
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
 
     <!-- Bootstrap: Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Main JavaScript -->
+    <!-- Main Javascript -->
     <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- Navbar JavaScript -->
+    <script type="text/javascript" src="js/navbar.js"></script>
+
 
 
 </html>
