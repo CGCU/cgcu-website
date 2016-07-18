@@ -15,25 +15,85 @@
     /* margin-top: -4px; After 768px only */
 }
 
+.navbar-toggle {
+    background-color: #c11919;
+    color: white;
+}
+
+/* Only puts hover effects on items in this class */
+.navbar-default .navbar-hover > li > a:hover,
+.navbar-default .navbar-hover > li > a:focus {
+    background-color: #c11919;
+    color: white;
+}
+
+
 /* RESPONSIVE CSS */
 
 /* repositions the social media icons
  * within the navbar when NOT collapsed.
  */
-@media (min-width: 768px) {
+/* Normally 992, but 1006 due to navbar size */
+@media (min-width: 1006px) {
     .header-icon {
         position: absolute;
         margin-top: -4px;
     }
 }
 
+/* Centre navbar content (not collapsed) */
+/* Normally 992, but 1006 due to navbar size */
+@media (min-width: 1006px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+/* Increase the collapse point to the second BS breakpoint */
+@media (min-width: 768px) {
+    .navbar-header {
+        float: none; }
+    .navbar-toggle {
+        display: block; }
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-static-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+        padding-right: 15px;
+        padding-left: 15px; }
+    .navbar-collapse.collapse {
+        display: none !important; }
+    .navbar-collapse.collapse.in {
+        display: block!important;
+        margin-top: 0px; }
+}
+/* Normally 992, but 1006 due to navbar size */
+@media (min-width: 1006px) {
+    .navbar-header {
+        float: left; }
+    .navbar-toggle {
+        display: none; }
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-static-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+        display: block !important; }
+}
+
+/* End size change */
 
 
-/* NAVBAR COLOURING
+/* NAVBAR COLOURING (EDITED from link below)
  * http://work.smarchal.com/twbscolor/css/e74c3cc0392becf0f1ffbbbc0
  * Active background = c11919
  *
  */
+
+
 .navbar-default {
     background-color: #ffffff;
     border-color: transparent;
@@ -51,19 +111,27 @@
 .navbar-default .navbar-nav > li > a {
     color: #000000;
 }
+
+/*********
+ * Hover for navbar as a whole
+ * disabled and re-written above
+ * so that there is no hover for the social media icons.
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #000000;
+    background-color: #c11919;
+    color: white;
 }
+*********/
+
 .navbar-default .navbar-nav > li > .dropdown-menu {
-    background-color: #ffffff;
+    background-color: white;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-    color: #000000;
+    color: black;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-    color: #ffffff;
+    color: white;
     background-color: #c11919;
 }
 .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
@@ -72,19 +140,19 @@
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
+    color: white;
     background-color: #c11919;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #ffffff;
+    color: white;
     background-color: #c11919;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-    color: #ffffff;
+    color: white;
     background-color: #c11919;
 }
 .navbar-default .navbar-toggle {
@@ -95,31 +163,33 @@
     background-color: #c11919;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #000000;
+    background-color: white;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
     border-color: transparent;
 }
 .navbar-default .navbar-link {
-    color: #000000;
+    color: black;
 }
 .navbar-default .navbar-link:hover {
-    color: #ffffff;
+    color: white;
 }
 
-@media (max-width: 767px) {
+
+
+@media (max-width: 768px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #000000;
+        color: black;
     }
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #ffffff;
+        color: white;
     }
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-        color: #ffffff;
+        color: white;
         background-color: #c11919;
     }
 }

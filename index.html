@@ -31,7 +31,10 @@
 
         <!-- NAVBAR -->
         <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
-            <div class="container">
+            <!-- VARIABLE: <div class="container-fluid"> when less than 1200
+                 or <div class="container">
+             -->
+            <div class="variable-fluid container-fluid">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
@@ -46,24 +49,35 @@
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-                            <li><a href="#">Link</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="nav navbar-nav navbar-hover">
+                            <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                            <li class="dropdown"> <!-- About the CGCU, History & Mascots -->
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The CGCU<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#">One more separated link</a></li>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">Mascots</a></li>
+                                    <li><a href="#">Committee</a></li>
                                 </ul>
                             </li>
+                            <li class="dropdown"> <!-- Events, Past/Upcoming -->
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Upcoming Events</a></li>
+                                    <li><a href="#">Past Events</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">DepSocs</a></li>
+                            <li><a href="#">Clubs</a></li>
+                            <li><a href="#">Welfare</a></li>
+                            <li><a href="#">CGCA</a></li>
+                            <li><a href="#">Regalia</a></li>
+                            <li><a href="#">Sponsors</a></li>
+                            <li><a href="#">Contact Us</a></li>
+
                         </ul>
+                        
                         <!-- Fixed right side of the navbar -->
-                        <ul class="nav navbar-nav navbar-right">
+                        <ul class="navbar-social-media nav navbar-nav navbar-right">
                             <!-- Facebook icon & link, with facebook blue color -->
                             <!-- target="_blank" opens in new tab
                                   and rel="noopener noreferrer" protects against _blank vunerability -->
@@ -79,7 +93,7 @@
                                 <span id="twitter-navbar"></span>
                             </a></li>
 
-                            <!-- DropDown Template Commented Out
+                            <!-- Dropdown template commented out
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
@@ -88,11 +102,18 @@
                                     <li><a href="#">Something else here</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="#">Separated link</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">One more separated link</a></li>
                                 </ul>
-
                             </li>
-                            <!-- End DropDown Template -->
+                            <!-- End Dropdown -->
+
+
                         </ul>
+
+
+                        <!-- Fixed right side of the navbar -->
+
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </div>
@@ -163,6 +184,8 @@
         <!-- END TITLE -->
 
         <div class="container well white-bkg">
+            <p id="currentWidth"></p>
+
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut eros non sem volutpat vestibulum eget eget nibh. Curabitur convallis sapien sem, sed dapibus tellus mollis sed. Sed nec mattis mauris. Aenean ultricies ornare dolor. Proin quis tempor leo. Mauris fermentum venenatis est, sit amet gravida turpis convallis a. Ut consectetur feugiat lectus, eu congue ante ultrices non. Pellentesque elit ex, elementum et justo nec, venenatis sagittis mauris. Nulla facilisis ornare tellus, id dapibus erat varius sed. Phasellus non tempor lectus. Maecenas mi lorem, rhoncus sit amet massa eget, faucibus viverra turpis. Ut sodales interdum lectus fermentum pretium. Ut ac pharetra quam. </p>
 
             <p>Aliquam interdum libero et mi interdum, id varius diam egestas. Praesent varius est ligula, at condimentum est elementum eu. Donec ligula elit, accumsan a tincidunt nec, auctor sit amet ex. Integer in ornare elit. Maecenas aliquet metus mauris, id aliquam nulla facilisis nec. Donec rhoncus quis felis et mattis. Sed nunc tellus, sagittis vel venenatis eu, elementum a felis. </p>
