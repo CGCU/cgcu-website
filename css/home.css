@@ -81,11 +81,17 @@ footer {
 /* RESPONSIVE CSS */
 
 @media (min-width: 768px) {
+    /* ...why? doesn't seem to do anything
     .container {
         padding-right: 15px;
         padding-left: 15px;
     }
-    /* Bump up size of carousel content */
+    */
+
+    /* Bump up size of carousel content
+     * NB: Don't change when extending navbar collapse
+     * This is break-point based, not nav-bar based
+     */
     .carousel-caption p {
         margin-bottom: 20px;
         font-size: 21px;
