@@ -9,17 +9,43 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
         <!-- Page Title -->
-        <title>City and Guilds College Union</title>
+        <title>History</title>
 
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Font Awesome (e.g. social media icons) -->
+        <!-- Font Awesome -->
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
         <!-- Stylesheet -->
         <link href="css/main.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
+
+        <!-- Page Specific CSS -->
+        <style type="text/css">
+
+            /* In addition to the css in main for jumbotronTitle */
+            .jumbotronTitle {
+                background: url("images/history/great-exhibition.jpg") no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                background-position: top;
+            }
+
+            /* Shows a more zoomed out view of the banner on larger screens */
+            @media (min-width: 1200px) {
+                .jumbotronTitle {
+                    -webkit-background-size: 100%;
+                    -moz-background-size: 100%;
+                    -o-background-size: 100%;
+                    background-size: 100%;
+                    background-position: top;
+                }
+            }
+
+        </style>
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -50,11 +76,11 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-hover">
-                            <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-                            <li class="dropdown"> <!-- About the CGCU, History & Mascots -->
+                            <li><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                            <li class="dropdown active"> <!-- About the CGCU, History & Mascots -->
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The CGCU<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">History</a></li>
+                                    <li class="active"><a href="#">History</a></li>
                                     <li><a href="#">Mascots</a></li>
                                     <li><a href="#">Committee</a></li>
                                 </ul>
@@ -122,58 +148,11 @@
 
     </head>
 
-    <!-- CAROUSEL -->
-    <div></div>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="item active" id="slide_01">
-                <!-- <img class="first-slide" src="images/dogs.jpg" alt="First slide" width=1300px> -->
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Example headline.</h1>
-                        <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="item" id="slide_02">
-                <!-- <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide"> -->
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="item" id="slide_03">
-                <!-- <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide"> -->
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>One more for good measure.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-                    </div>
-                </div>
-            </div>
+    <div class="jumbotron jumbotronTitle">
+        <div class="container">
+            <h2 class="page-title">History</h2>
         </div>
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
-
-    <!-- END CAROUSEL -->
 
 
     <body>
@@ -185,56 +164,32 @@
         <!-- END TITLE -->
 
         <div class="container well white-bkg">
-            <p id="currentWidth"></p>
 
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut eros non sem volutpat vestibulum eget eget nibh. Curabitur convallis sapien sem, sed dapibus tellus mollis sed. Sed nec mattis mauris. Aenean ultricies ornare dolor. Proin quis tempor leo. Mauris fermentum venenatis est, sit amet gravida turpis convallis a. Ut consectetur feugiat lectus, eu congue ante ultrices non. Pellentesque elit ex, elementum et justo nec, venenatis sagittis mauris. Nulla facilisis ornare tellus, id dapibus erat varius sed. Phasellus non tempor lectus. Maecenas mi lorem, rhoncus sit amet massa eget, faucibus viverra turpis. Ut sodales interdum lectus fermentum pretium. Ut ac pharetra quam. </p>
+            <p>
+                In 1851, the Royal Commission was put in charge of appropriately spending the large profit made by the
+                Great Exhibition held at the Crystal Palace that year. In order to boost industrial education and the
+                impact of science and art, the three museums at South Kensington, RSM, RCS, the Royal Albert Hall and
+                the Royal Colleges of Art and Music were built.
+            </p>
+            <p>
+                The City & Guilds Institute was set up in 1878 to establish a national standard for technical education
+                and in 1884, after talks with the Royal Commission, they opened the Central Technical College on
+                Exhibition Road. Today, the City & Guilds Institute remains an industrial examination and
+                accreditation body.
+            </p>
+            <p>
+                Under the Royal Charter of Edward VII, RCS and RSM merged to create Imperial College of Science and
+                Technology in 1907. Three years later, the Central Technical College (which had changed its name
+                to City & Guilds College by then) joined Imperial too.
+            </p>
+            <p>
+                The City & Guilds College and its union (us!) are pretty much the same as we were in 1910,
+                and have gathered up traditions and
+                <a href="mascots.html">mascots</a>
+                on the way.
+            </p>
 
-            <p>Aliquam interdum libero et mi interdum, id varius diam egestas. Praesent varius est ligula, at condimentum est elementum eu. Donec ligula elit, accumsan a tincidunt nec, auctor sit amet ex. Integer in ornare elit. Maecenas aliquet metus mauris, id aliquam nulla facilisis nec. Donec rhoncus quis felis et mattis. Sed nunc tellus, sagittis vel venenatis eu, elementum a felis. </p>
-
-            <p>Integer vehicula tincidunt tortor in blandit. In hac habitasse platea dictumst. Integer sit amet risus augue. Aliquam luctus ullamcorper purus, at tempor arcu consectetur id. Duis vestibulum aliquam auctor. Nunc volutpat vulputate feugiat. Maecenas porta feugiat leo, vitae placerat mauris placerat quis. Nunc consequat mauris neque, ac dapibus erat eleifend quis. Suspendisse at tellus velit. </p>
         </div>
-
-        <!-- CARDS (3 Panels in BS3) -->
-        <div class="container cards">
-            <div class="row">
-                <div class="col-xs-12 col-sm-4 col-md-4 ">
-                    <div class="thumbnail">
-                        <!-- Image size must be 500x250 -->
-                        <img src="http://placehold.it/500x250/EEE">
-                        <div class="caption">
-                            <h4>Thumbnail label</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                            <a href="#" class="btn btn-primary" role="button">Button</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="thumbnail">
-                        <!-- Image size: 500x250 -->
-                        <img src="http://placehold.it/500x250/EEE">
-                        <div class="caption">
-                            <h4>Thumbnail label</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                            <a href="#" class="btn btn-primary" role="button">Button</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="thumbnail">
-                        <!-- Image size must be 500x250 -->
-                        <img src="http://placehold.it/500x250/EEE">
-                        <div class="caption">
-                            <h4>Thumbnail label</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                            <a href="#" class="btn btn-primary" role="button">Button</a>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/row-->
-        </div><!--/container -->
-        <!-- END CARDS -->
 
 
         <!-- FOOTER -->

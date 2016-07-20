@@ -9,6 +9,8 @@
 
 /* After page loads */
 $( document ).ready(function() {
+    $( "#currentWidth" ).html($( window ).width());
+
     responsiveNavbar();
 });
 

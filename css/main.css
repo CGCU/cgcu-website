@@ -18,8 +18,17 @@ body {
     background-color: white;
 }
 
+/* Changes paragraph spacing
+ * to 1.5x normal */
+p {
+    margin-top: 0em;
+    margin-bottom: 1.5em;
+}
+
+
 /* Footer */
 footer {
+    padding-top: 20px;
     position:absolute;
     bottom:0;
     width:100%;
@@ -39,9 +48,28 @@ footer {
     padding-bottom: 20px;
 }
 
+/* JUMBOTRON */
 
+/* Title Jumbotron */
+/* If change jumbo height,
+ * also need to change page-title
+ * padding-top entry
+ * & check all images work with new height */
+.jumbotronTitle {
+    position: inherit;
+    height: 300px;
+}
 
-/* CAROUSEL */
+/* Page Title */
+.page-title {
+    position: relative;
+    padding-top: 170px;
+    padding-left: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+/* HOME PAGE CAROUSEL */
 
 /* Carousel base class */
 .carousel {
@@ -67,16 +95,30 @@ footer {
     margin: 0 auto;
 }
 
-/* CAROUSEL IMAGES */
+/* HOME PAGE CAROUSEL IMAGES */
+
+#slide_01 {
+
+}
 
 #slide_02 {
-    background: url("../images/dogs.jpg") no-repeat center center fixed;
+    background: url("../images/home/dogs.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: top;
 }
 
+#slide_03 {
+    background: url("../images/history/great-exhibition.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
+
+}
 
 /* RESPONSIVE CSS */
 
