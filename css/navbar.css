@@ -27,6 +27,10 @@
     color: white;
 }
 
+/* Navbar logo image */
+.navbar-logo {
+    padding-right: 5px;
+}
 
 /* RESPONSIVE CSS */
 
@@ -86,10 +90,9 @@
 /* End collapse point change */
 
 
-/* NAVBAR COLOURING (EDITED from link below)
+/* NAVBAR COLOURING (heavily EDITED from link below)
  * http://work.smarchal.com/twbscolor/css/e74c3cc0392becf0f1ffbbbc0
  * Active background = c11919
- *
  */
 
 
@@ -110,17 +113,6 @@
 .navbar-default .navbar-nav > li > a {
     color: #000000;
 }
-
-/*********
- * Hover for navbar as a whole
- * disabled and re-written above
- * so that there is no hover for the social media icons.
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    background-color: #c11919;
-    color: white;
-}
-*********/
 
 .navbar-default .navbar-nav > li > .dropdown-menu {
     background-color: white;
