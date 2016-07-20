@@ -1,0 +1,151 @@
+/* General Styling */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    color: black;
+    /* Top padding for the navbar */
+    padding-top: 50px;
+
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+
+    background-color: #F5F5F5;
+}
+
+.white-bkg {
+    background-color: white;
+}
+
+/* Changes paragraph spacing
+ * to 1.5x normal */
+p {
+    margin-top: 0em;
+    margin-bottom: 1.5em;
+}
+
+
+/* Footer */
+footer {
+    padding-top: 20px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background: transparent;
+    clear: both;
+}
+
+.footer-container {
+    margin-bottom: 0px;
+    bottom: 0;
+}
+
+/* Cards */
+.cards {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* JUMBOTRON */
+
+/* Title Jumbotron */
+/* If change jumbo height,
+ * also need to change page-title
+ * padding-top entry
+ * & check all images work with new height */
+.jumbotronTitle {
+    position: inherit;
+    height: 300px;
+}
+
+/* Page Title */
+.page-title {
+    position: relative;
+    padding-top: 170px;
+    padding-left: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+/* HOME PAGE CAROUSEL */
+
+/* Carousel base class */
+.carousel {
+    height: 500px;
+    margin-bottom: 50px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: inherit;
+    top: 0;
+    left: 0;
+    min-width: 1024px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+/* HOME PAGE CAROUSEL IMAGES */
+
+/* Placeholder sizes (in this instance) mean nothing and are probably too big */
+#slide_01 {
+    background: url("http://placekitten.com/5000/2500") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
+}
+
+/* Placeholder sizes (in this instance) mean nothing and are probably too big */
+#slide_02 {
+    background: url("http://placekitten.com/4000/2000") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
+}
+
+/* Placeholder sizes (in this instance) mean nothing and are probably too big */
+#slide_03 {
+    background: url("http://placekitten.com/3000/1500") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
+
+}
+
+/* RESPONSIVE CSS */
+
+@media (min-width: 768px) {
+    /* ...why? doesn't seem to do anything
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    */
+
+    /* Bump up size of carousel content
+     * NB: Don't change when extending navbar collapse
+     * This is break-point based, not nav-bar based
+     */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+}
+
