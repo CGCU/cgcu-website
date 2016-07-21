@@ -60,13 +60,25 @@ footer {
     height: 300px;
 }
 
-/* Page Title */
+/* Page Title
+ * Where this updates,
+ * update -invert below */
 .page-title {
     position: relative;
     padding-top: 170px;
     padding-left: 20px;
     color: white;
     text-shadow: 2px 2px black;
+}
+
+/* Page Title Inverted
+ * Where this updates,
+ * update -title above */
+.page-title-invert {
+    position: relative;
+    padding-top: 170px;
+    padding-left: 20px;
+    color: black;
 }
 
 /* Page Subtitle - e.g. cgca page */
