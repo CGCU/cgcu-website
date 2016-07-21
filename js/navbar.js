@@ -9,15 +9,11 @@
 
 /* After page loads */
 $( document ).ready(function() {
-    $( "#currentWidth" ).html($( window ).width());
-
     responsiveNavbar();
 });
 
 /* Upon resizing the viewport */
 $( window ).resize(function() {
-    $( "#currentWidth" ).html($( window ).width());
-
     responsiveNavbar();
 });
 
@@ -36,18 +32,6 @@ function responsiveNavbar() {
         $( "#facebook-navbar" ).html("");
         $( "#twitter-navbar" ).html("");
     }
-
-
-    /* 'Turn off' navbar-right between these widths */ /* COMMENTED OUT
-    POTENTIALLY DO NOT WANT TO DO THIS
-
-    if($( window ).width < 992 && $( window ).width >= 768) {
-        $( ".navbar-social-media" ).removeClass("navbar-right");
-    } else {
-        $( ".navbar-social-media" ).addClass("navbar-right");
-
-    }
-    COMMENT OUT END */
 
     /* Container-fluid or not container-fluid */
     if( $( window ).width() < 1200) {

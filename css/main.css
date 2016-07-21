@@ -96,6 +96,7 @@ footer {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
     z-index: 10;
+    background-color: rgba(0,0,0,0.5);
 }
 
 /* Declare heights because of positioning of img element */
@@ -115,11 +116,16 @@ footer {
 /* HOME PAGE CAROUSEL IMAGES */
 
 #slide_01 {
-
+    background: url("../images/freshers/freshers-banner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
 }
 
 #slide_02 {
-    background: url("../images/home/dogs.jpg") no-repeat center center fixed;
+    background: url("../images/sponsors/sponsors-banner.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -128,7 +134,7 @@ footer {
 }
 
 #slide_03 {
-    background: url("../images/history/great-exhibition.jpg") no-repeat center center fixed;
+    background: url("../images/home/dogs.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -151,10 +157,12 @@ footer {
      * NB: Don't change when extending navbar collapse
      * This is break-point based, not nav-bar based
      */
+    /* COMMENTED OUT
     .carousel-caption p {
         margin-bottom: 20px;
         font-size: 21px;
         line-height: 1.4;
     }
+    COMMENTED OUT */
 }
 
