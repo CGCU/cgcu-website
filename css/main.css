@@ -69,6 +69,11 @@ footer {
     text-shadow: 2px 2px black;
 }
 
+/* Page Subtitle - e.g. cgca page */
+.page-subtitle {
+    padding-left: 20px;
+}
+
 /* HOME PAGE CAROUSEL */
 
 /* Carousel base class */
