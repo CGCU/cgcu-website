@@ -24,6 +24,14 @@
         <!-- Page Specific CSS -->
         <style type="text/css">
 
+            /* Make title more readable with current background */
+            /* Surrounds text (due to span tag) with opaque black box
+                to make black stand out slightly more */
+            #titleSpan {
+                background-color:rgba(255,255,255,0.4);
+                padding: 5px;
+            }
+
             /* In addition to the css in main for jumbotronTitle */
             .jumbotronTitle {
                 background: url("images/sponsors/sponsors-banner.jpg") no-repeat center center fixed;
@@ -31,7 +39,7 @@
                 -moz-background-size: cover;
                 -o-background-size: cover;
                 background-size: cover;
-                background-position: bottom;
+                background-position: 55% 0%;
             }
 
             /* Shows a more zoomed out view of the banner on larger screens */
@@ -127,7 +135,11 @@
 
     <div class="jumbotron jumbotronTitle">
         <div class="container">
-            <h2 class="page-title">Our Sponsors</h2>
+            <h2 class="page-title-invert">
+                <span id="titleSpan">
+                    Our Sponsors
+                </span>
+            </h2>
         </div>
     </div>
 

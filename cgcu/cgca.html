@@ -24,6 +24,14 @@
         <!-- Page Specific CSS -->
         <style type="text/css">
 
+            #titleSpan {
+                /* Make title more readable with current background */
+                /* Surrounds text (due to span tag) with opaque white box
+                    to make black stand out slightly more */
+                background-color:rgba(0,0,0,0.35);
+                padding: 5px;
+            }
+
             /* In addition to the css in main for jumbotronTitle */
             .jumbotronTitle {
                 padding-top: 20px;
@@ -117,7 +125,11 @@
 
     <div class="jumbotron jumbotronTitle">
         <div class="container">
-            <h2 class="page-title">The City and Guilds College Association</h2>
+            <h2 class="page-title">
+                <span id="titleSpan">
+                The City and Guilds College Association
+                </span>
+            </h2>
         </div>
     </div>
 
