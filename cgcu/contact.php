@@ -1,4 +1,8 @@
 <?php
+
+    /* CONTACT FORM PHP LOGIC */
+    // https://github.com/bootstrapbay/contact-form/blob/master/index.php
+
     if (isset($_POST["submit"])) {
         $name = $_POST['name'];
         $email = $_POST['email'];
@@ -35,13 +39,16 @@
 
         // If there are no errors, send the email
         if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
+            // note: the mail function does not work on local phpstorm testserver
             if (mail ($to, $subject, $body, $from)) {
-                $result='<div class="alert alert-success">Thank You! Your message has been sent to the committee</div>';
+                $result='<div class="alert alert-success">Thank You! Your message has been sent to the committee.</div>';
             } else {
                 $result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later or email <strong>guilds@imperial.ac.uk</strong> instead.</div>';
             }
         }
     }
+
+    /* END CONTACT FORM PHP LOGIC */
 ?>
 
 <!DOCTYPE html>
@@ -184,14 +191,13 @@
 
         <div class="container well white-bkg">
             <p>
-                Please email us at guilds@imperial.ac.uk,
+                Please use the contact form below, email us at guilds@imperial.ac.uk,
                 or message us on <a href="http://www.facebook.com/IC.CGCU/">facebook</a>,
                 and one of our committee will get back to you.
             </p>
         </div>
 
         <!-- CONTACT FORM -->
-        <!-- https://github.com/bootstrapbay/contact-form/blob/master/index.php -->
 
         <div class="container well white-bkg">
             <div class="row">
