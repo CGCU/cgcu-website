@@ -24,6 +24,14 @@
         <!-- Page Specific CSS -->
         <style type="text/css">
 
+            #titleSpan {
+                /* Make title more readable with current background */
+                /* Surrounds text (due to span tag) with opaque white box
+                    to make black stand out slightly more */
+                background-color:rgba(0,0,0,0.35);
+                padding: 5px;
+            }
+
             /* In addition to the css in main for jumbotronTitle */
             .jumbotronTitle {
                 background: url("images/committee/committee-banner.jpg") no-repeat center center fixed;
@@ -127,20 +135,18 @@
 
     <div class="jumbotron jumbotronTitle">
         <div class="container">
-            <h2 class="page-title">Committee</h2>
+            <h2 class="page-title">
+                <span id="titleSpan">
+                    Committee
+                </span>
+            </h2>
         </div>
     </div>
 
 
     <body>
 
-        <div class="container well white-bkg">
-
-            <p>
-                <i>Page under construction.</i>
-            </p>
-
-        </div>
+        <span id="committee2016" style="padding-top: -2px"></span>
 
         <!-- FOOTER -->
         <footer>
@@ -167,5 +173,22 @@
 
     <!-- Navbar JavaScript -->
     <script type="text/javascript" src="js/navbar.js"></script>
+
+    <!-- AJAX CommitteeTabs JavaScript -->
+    <script type="text/javascript">
+
+        $( document ).ready(committee("2016"));
+
+        function committee(year) {
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("committee2016").innerHTML = this.responseText;
+                }
+            };
+            xmlhttp.open("GET","committeeTabs.php?year="+year,true);
+            xmlhttp.send();
+        }
+    </script>
 
 </html>
