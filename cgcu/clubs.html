@@ -24,6 +24,14 @@
         <!-- Page Specific CSS -->
         <style type="text/css">
 
+            #titleSpan {
+                /* Make title more readable with current background */
+                /* Surrounds text (due to span tag) with opaque white box
+                    to make black stand out slightly more */
+                background-color:rgba(0,0,0,0.35);
+                padding: 5px;
+            }
+
             /* In addition to the css in main for jumbotronTitle */
             .jumbotronTitle {
                 background: url("images/clubs/clubs-banner-motor.jpg") no-repeat center center fixed;
@@ -127,7 +135,11 @@
 
     <div class="jumbotron jumbotronTitle">
         <div class="container">
-            <h2 class="page-title">Clubs</h2>
+            <h2 class="page-title">
+                <span id="titleSpan">
+                    Clubs
+                </span>
+            </h2>
         </div>
     </div>
 
