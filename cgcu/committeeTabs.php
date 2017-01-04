@@ -46,12 +46,10 @@
         echo    '<h3>' . $row["name"] . '</h3>';
         echo    '<h4>' . $row["position"] . '</h4>';
         echo    '<br>';
-        echo    '<div class="col-sm-3"><img src="'. $row["imageSourceURL"] . '" class="img-responsive img-rounded"></div>';
-        echo    '<div class="col-sm-9">';
-        echo        '<div class="container">' . $row["bio"] . '</div>';
+        echo    '<div class="col-sm-3"><img src="'. $row["imageSourceURL"] . '" class="img-responsive img-rounded center-block" style="max-height: 250px">';
 
-        // icons on right
-        echo        '<div class="pull-right">';
+        // icons on left under image
+        echo        '<div style="text-align: center; padding-top: 5px">';
 
         if (!is_null($row["email"])) {
             echo        '<a target="_blank" rel="noopener noreferrer" href="mailto:' . $row["email"] .'">';
@@ -86,10 +84,14 @@
             echo        '</a>';
         }
 
-        // div for pull-right
-        echo        '</div>';
+        // div for pull-right and left col
+        echo        '</div></div>';
+
         // end icons
 
+        // right col
+        echo    '<div class="col-sm-9">';
+        echo        '<div class="container">' . $row["bio"] . '</div>';
         // div for right col
         echo     '</div>';
 
