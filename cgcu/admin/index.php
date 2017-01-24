@@ -1,6 +1,8 @@
 <?php
 
     session_start();
+    session_destroy();
+    session_start();
 
     /* Initialise all strings to the empty string */
     $username = $password = $err = "";
