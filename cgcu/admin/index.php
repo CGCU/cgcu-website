@@ -5,18 +5,21 @@
     session_start();
 
     /* Initialise all strings to the empty string */
-    $username = $password = $err = "";
+    $username = $password = $err = '';
+    $correct_password_hash = '$2y$10$/.E5UEd5JtnaC02Pvw6L1.mOf2VDcDtmWrqs9DDdvK3/fsHBWMBeW';
+    $correctUsername = 'guilds';
 
-    if(isset($_POST['sub'])){
-        $username = $_POST['username']; $password = $_POST['password'];
-        if($username === 'admin' && $password === 'password'){
+    if(isset($_POST['sub'])) {
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+        if($username === $correctUsername && password_verify($password, $correct_password_hash)) {
             $_SESSION['loggedIn'] = true;
             $_SESSION['username'] = $username;
             header('LOCATION:dashboard.php');
             die();
-        }
-        if($username !== 'admin' || $password !== 'password') {
-            $err = "Your username or password is incorrect. Nice try RCSU.";
+        } else {
+            $err = 'Your username or password is incorrect. Nice try RCSU.';
         }
     }
 ?>
