@@ -14,7 +14,7 @@
             die();
         }
         if($username !== 'admin' || $password !== 'password') {
-            $err = "Your username or password is incorrect. Please try again.";
+            $err = "Your username or password is incorrect. Nice try RCSU.";
         }
     }
 ?>
@@ -89,10 +89,19 @@
 
     <form name='form-signin' class="form-signin" action='<?php echo $_SERVER['PHP_SELF'];?>' method='post'>
         <h2 class="form-signin-heading">CGCU Admin Login</h2>
+        <marquee style="padding-top: 2px">
+            Hey, you've reached the CGCU admin page. It was probably a mistake.
+            Go back and live your life as if you've never seen this page.
+            Its secrets are too much for you to handle.
+            Much like the degree you're procrastinating from as you stumbled onto this page.
+            Look away.
+            If you're an RSCU hacker don't even bother. We are far superior. The password is not guilds.
+            MARQUEEEEEEEEEEEEEEEEEEEEEEEE... &nbsp &nbsp &nbsp &nbsp marquEEE.
+        </marquee>
         <label for='username'></label>
         <input type='text' value='<?php echo $username;?>' id='username' class="form-control" name='username' placeholder="Username" required autofocus />
         <label for='password'></label>
-        <input type='password' value='<?php echo $password;?>' class="form-control" id='password' name='password' placeholder="Password" required />
+        <input type='password' value='<?php echo $password;?>' class="form-control" id='password' name='password' placeholder="Password (Which is not Guilds)" required />
         <input type='submit' value='Submit' name='sub' class="btn btn-primary" />
         <div class="error"><?php echo "<p class='text-danger'>$err</p>";?> </div>
     </form>
