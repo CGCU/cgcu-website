@@ -1,7 +1,9 @@
 /* CGCU Tempalte -
  * Updated by cmpoon
  -- General Styling -- */
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic);
 html {
+    font-family: Arimo, Helvetica, Arial, sans-serif;
     position: relative;
     min-height: 100%;
 }
@@ -99,7 +101,7 @@ h2.page-title{
   padding-left: 20px;
   color: white;
   text-shadow: 2px 2px 5px black;
-  background-color: rgba(193, 25, 25,0.8);
+  background-color: rgba(193, 25, 25,0.9);
 }
 
 /* Page Title Inverted
