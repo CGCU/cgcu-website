@@ -27,21 +27,19 @@ function responsiveNavbar() {
     if($( window ).width() < 1006) {
         $( "#facebook-navbar" ).html("CGCU Facebook");
         $( "#twitter-navbar" ).html("CGCU Twitter");
-
+        $( "#instagram-navbar" ).html("CGCU Instagram");
     } else {
         $( "#facebook-navbar" ).html("");
         $( "#twitter-navbar" ).html("");
+        $( "#instagram-navbar" ).html("");
     }
 
-    /* Container-fluid or not container-fluid */
-    if( $( window ).width() < 1200) {
+    /* Container-fluid (always) or not container-fluid (never) */
+    /* if( $( window ).width() < 1200) {
         $( ".variable-fluid" ).removeClass("container").addClass("container-fluid");
     } else {
         $( ".variable-fluid" ).removeClass("container-fluid").addClass("container");
-    }
+    } */
 
 
 }
-
-
-
