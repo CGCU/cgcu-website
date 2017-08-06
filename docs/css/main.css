@@ -82,16 +82,23 @@ footer {
  * update -invert below */
 .page-title {
     position: relative;
-    margin-top: 170px;
+    margin-top: 140px;
     padding: 5px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     color: white;
     text-shadow: 2px 2px 5px black;
+}
+
+h2.page-title{
+  margin-top: 170px;
 }
 
 .page-title span{
   /** new colouring **/
   padding: 5px;
+  padding-left: 20px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
   background-color: rgba(193, 25, 25,0.8);
 }
 
