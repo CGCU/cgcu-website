@@ -1,4 +1,5 @@
 /**
+ * Updated by cmpoon
  * Created by andrewhill on 06/07/2016.
  *
  * Contains the javascript relating to the Navbar
@@ -7,20 +8,9 @@
  * use alongside navbar css
  */
 
-/* After page loads */
-$( document ).ready(function() {
-    responsiveNavbar();
-});
-
-/* Upon resizing the viewport */
-$( window ).resize(function() {
-    responsiveNavbar();
-});
-
-
 /* Adds social media icon labels to the navbar
  * upon navbar collapse (< 768px) */
-function responsiveNavbar() {
+responsiveNavbar = function() {
 
     /* Social Media Labels in collapsed navbar*/
     /* Navbar collapses at 1006 at the moment, normally 992 */
@@ -40,6 +30,11 @@ function responsiveNavbar() {
     } else {
         $( ".variable-fluid" ).removeClass("container-fluid").addClass("container");
     } */
-
-
 }
+
+
+/* After page loads */
+$( document ).ready(responsiveNavbar);
+
+/* Upon resizing the viewport */
+$( window ).resize(responsiveNavbar);

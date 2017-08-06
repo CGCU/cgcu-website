@@ -1,4 +1,6 @@
-/* General Styling */
+/* CGCU Tempalte -
+ * Updated by cmpoon
+ -- General Styling -- */
 html {
     position: relative;
     min-height: 100%;
@@ -80,10 +82,17 @@ footer {
  * update -invert below */
 .page-title {
     position: relative;
-    padding-top: 170px;
+    margin-top: 170px;
+    padding: 5px;
     padding-left: 20px;
     color: white;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px 5px black;
+}
+
+.page-title span{
+  /** new colouring **/
+  padding: 5px;
+  background-color: rgba(193, 25, 25,0.8);
 }
 
 /* Page Title Inverted
@@ -91,10 +100,17 @@ footer {
  * update -title above */
 .page-title-invert {
     position: relative;
-    padding-top: 170px;
+    margin-top: 170px;
     padding-left: 20px;
     color: black;
+  }
+
+.page-title-invert span{
+    /** new colouring **/
+    background-color: rgba(255,255,255,0.8)
 }
+
+.
 
 /* Page Subtitle - e.g. cgca page */
 .page-subtitle {
