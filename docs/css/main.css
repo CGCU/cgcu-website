@@ -79,6 +79,17 @@ footer {
   background-position: 30% 90%;
 }
 
+/* Shows a more zoomed out view of the banner on larger screens */
+@media (min-width: 1200px) {
+    .jumbotronImg {
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+        background-position: top;
+    }
+}
+
 /* Page Title
  * Where this updates,
  * update -invert below */

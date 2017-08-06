@@ -53,7 +53,7 @@
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-hover">
+                        <ul class="nav navbar-nav navbar-hover navbar-autoactivate" id="navlist">
                             <li><a href="index.html">Home</a></li>
                             <li class="dropdown"> <!-- About the CGCU, History & Mascots -->
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The CGCU<span class="caret"></span></a>
@@ -64,14 +64,13 @@
                                 </ul>
                             </li>
                             <li><a href="news.html">News</a></li>
-
                             <li><a href="depsocs.html">DepSocs</a></li>
                             <li><a href="clubs.html">Clubs</a></li>
                             <li><a href="welfare.html">Welfare</a></li>
                             <li><a href="cgca.html">CGCA</a></li>
                             <li><a href="regalia.html">Regalia</a></li>
                             <li><a href="sponsors.html">Sponsors</a></li>
-                            <li><a href="contact.html" class="active">Contact Us<span class="sr-only">(current)</span></a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
 
                         </ul>
 
@@ -155,12 +154,12 @@
                     </div>
                     <div class="form-group">
                         <div class="col-sm-10 col-sm-offset-2">
-                            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-                            <p>You will be redirected to confirm that you are not a robot. :)</p>
+                            <input id="submit" name="submit" type="submit" value="Next" class="btn btn-primary">
+                            <p class="help-block">You will be asked to confirm that you are not a robot next. :)</p>
                         </div>
                     </div>
 
-                    <input type="hidden" name="_next" value="//cgcu.net/cgcu/contact.html?thanks" />
+                    <input type="hidden" name="_next" value="https://cgcu.net/cgcu/contact.html?thanks" />
                     <input type="hidden" name="_subject" value="[CGCU Site] Contact Form" />
                 </form>
             </div>

@@ -8,6 +8,7 @@
  * use alongside navbar css
  */
 
+
 /* Adds social media icon labels to the navbar
  * upon navbar collapse (< 768px) */
 responsiveNavbar = function() {
@@ -30,11 +31,45 @@ responsiveNavbar = function() {
     } else {
         $( ".variable-fluid" ).removeClass("container-fluid").addClass("container");
     } */
+
+
 }
 
 
+/** Auto activate **/
+autoactivate = function(){
+  var url = window.location.pathname;
+  var filename = url.substring(url.lastIndexOf('/')+1);
+
+    var navItems = $(".navbar-autoactivate li");
+
+    /** Recursive activate for submenu **/
+    navItems.each(function(idx, li) {
+        var navbarItem = $(li);
+        navbarItem.find('a').each(function() {
+          if (filename == this.href ){
+            navbarItem.addClass("active");
+          }
+        });
+
+        /** Singular activate for single level-menu**/
+        var navbarAnchor = navbarItem.children("a");
+        var navhref = navbarAnchor.attr("href");
+
+        //Check against
+        if (filename == navhref || (navhref == "index.html" && filename == "")){
+
+          navbarItem.addClass("active");
+          navbarAnchor.html(navbarAnchor.html() + '<span class="sr-only"> (current)</span>');
+        }
+      });
+
+    responsiveNavbar();
+};
+
+
 /* After page loads */
-$( document ).ready(responsiveNavbar);
+$( document ).ready(autoactivate);
 
 /* Upon resizing the viewport */
 $( window ).resize(responsiveNavbar);
