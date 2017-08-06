@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <!-- STD header v1.1.1 -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <!-- To ensure proper rendering and touch zooming on mobile, add the viewport meta tag to your <head>. -->
         <!-- maximum-scale=1, user-scalable=no" make it so that the page cannot be zoomed on touch devices-->
@@ -9,41 +10,27 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
         <!-- Page Title -->
-        <title>freshers :: CGCU</title>
+        <title>the CGCA :: CGCU</title>
+
+        <!-- Enable below before upload to prod -->
+        <!-- base href="/cgcu/" -->
 
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Font Awesome -->
+        <!-- Font Awesome (e.g. social media icons) -->
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
         <!-- Stylesheet -->
         <link href="css/main.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
 
-        <!-- Page Specific CSS -->
-        <style type="text/css">
-
-            /* In addition to the css in main for jumbotronTitle */
-            .jumbotronTitle {
-                background: url("images/freshers/freshers-banner.jpg") no-repeat center center fixed;
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                -o-background-size: cover;
-                background-size: cover;
-                background-position: 50% 100%;
-            }
-
-        </style>
-
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-        <!-- Lets not
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-
       </head>
 
       <body>
@@ -52,8 +39,8 @@
             <!-- VARIABLE: <div class="container-fluid"> when less than 1200
                  or <div class="container">
              -->
-            <div class="variable-fluid container-fluid">
-                <div class="container-fluid">
+            <div class="container-fluid">
+               <div class="variable-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -67,26 +54,24 @@
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-hover">
-                            <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                        <ul class="nav navbar-nav navbar-hover navbar-autoactivate" id="navlist">
+                            <li><a href="index.html">Home</a></li>
                             <li class="dropdown"> <!-- About the CGCU, History & Mascots -->
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The CGCU<span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="history.html">History</a></li>
                                     <li><a href="mascots.html">Mascots</a></li>
                                     <li><a href="committee.html">Committee</a></li>
                                 </ul>
                             </li>
-                            <li><a href="news.html">News</a></li>
-
+                            <li><a href="events.html">Events</a></li>
                             <li><a href="depsocs.html">DepSocs</a></li>
                             <li><a href="clubs.html">Clubs</a></li>
                             <li><a href="welfare.html">Welfare</a></li>
                             <li><a href="cgca.html">CGCA</a></li>
                             <li><a href="regalia.html">Regalia</a></li>
                             <li><a href="sponsors.html">Sponsors</a></li>
-                            <li><a href="contact.php">Contact Us</a></li>
-
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
 
                         <!-- Fixed right side of the navbar -->
@@ -122,13 +107,15 @@
         </nav>
         <!-- END NAVBAR -->
 
-    <div class="jumbotron jumbotronTitle">
-        <div class="container">
-            <h2 class="page-title">CGCU Freshers</h2>
-        </div>
-    </div>
+    <div id="content">
+    <!-- Start of page content -->
 
-    <body>
+
+    <div class="jumbotron jumbotronTitle jumbotronImg" style="background-image: url('images/freshers/freshers-banner.jpg')" >
+    <div class="container">
+        <h1 class="page-title"><span>Hello Freshers!</span></h1>
+    </div>
+    </div>
 
         <div class="container well white-bkg">
             <p>
@@ -179,7 +166,7 @@
         <div class="container well white-bkg">
 
             <a href="files/spanner2016.pdf">
-                <img  class="img-responsive" src="images/freshers/spanner-image.png" alt="Spanner Image" width="300px">
+                <img class="img-responsive" src="images/freshers/spanner-image.png" alt="Spanner Image" style="width:300px" />
             </a>
             <br>
             <p>
@@ -192,6 +179,8 @@
 
         </div>
 
+        <!-- End of page content -->
+        </div>
 
         <!-- FOOTER -->
         <footer>
@@ -205,20 +194,28 @@
         </footer>
         <!-- END FOOTER -->
 
-    </body>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js"></script>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.min.js"></script>
+        <!-- Bootstrap: Include all compiled plugins (below), or include individual files as needed -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Bootstrap: Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- Main Javascript -->
+        <script type="text/javascript" src="js/main.js"></script>
 
-    <!-- Main Javascript -->
-    <script type="text/javascript" src="js/main.js"></script>
+        <!-- Navbar JavaScript -->
+        <script type="text/javascript" src="js/navbar.js"></script>
 
-    <!-- Navbar JavaScript -->
-    <script type="text/javascript" src="js/navbar.js"></script>
+        <!-- GA - CGCU.net -->
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+        ga('create', 'UA-104143018-1', 'auto');
+        ga('send', 'pageview');
+        </script>
 
-
+        </body>
 </html>

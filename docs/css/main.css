@@ -97,6 +97,7 @@ footer {
     position: relative;
     margin-top: 140px;
     padding: 5px;
+    left: -120px;
     /* padding-left: 20px; */
     color: white;
     text-shadow: 2px 2px 5px black;
@@ -109,7 +110,7 @@ h2.page-title{
 .page-title span{
   /** new colouring **/
   padding: 5px;
-  padding-left: 20px;
+  padding-left: 140px;
   color: white;
   text-shadow: 2px 2px 5px black;
   background-color: rgba(193, 25, 25,0.9);
