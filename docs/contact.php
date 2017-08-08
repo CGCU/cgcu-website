@@ -1,4 +1,7 @@
 <?php
+header("Location: contact.html");
+
+
 
     /* CONTACT FORM PHP LOGIC */
     // https://github.com/bootstrapbay/contact-form/blob/master/index.php

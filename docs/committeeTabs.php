@@ -5,7 +5,7 @@
         "2023", "2024", "2025", "2026", "2027", "2028", "2029", "2030");
 
     // fetch the year from the AJAX request
-    $year = (string)$_GET["year"];
+    /*$year = (string)$_GET["year"];
     $table = "committee" . $year;
     $tableStrLen = 13;
 
@@ -15,7 +15,8 @@
                 with a description of what you were trying to do. <br> <br> Thanks and sorry for the inconvenience.
                 <br><br> Please note this script should not be accessed directly as a webpage.";
         die();
-    }
+    }*/
+	$table = "committee";
 
     // Perform database query
     // Load databse config info
@@ -49,6 +50,13 @@
     // Do something with the result from the database
     // Null checks are present on the non-required fields
     while ($row = $result->fetch_assoc()) {
+		
+		if (empty($row["imageSourceURL"])){
+			$row["imageSourceURL"] = "images/committee/headshots/default.jpg";
+		}else if(strstr($row["imageSourceURL"],"//") === false){
+			$row["imageSourceURL"] = "images/committee/headshots/".$row["imageSourceURL"];
+		}
+		
         echo '<div class="container well white-bkg">';
         echo    '<h3>' . $row["name"] . '</h3>';
         echo    '<h4>' . $row["position"] . '</h4>';
@@ -98,7 +106,7 @@
 
         // right col
         echo    '<div class="col-sm-9">';
-        echo        '<div class="container">' . $row["bio"] . '</div>';
+        echo        '<div class="committee-bio">' . $row["bio"] . '</div>';
         // div for right col
         echo     '</div>';
 

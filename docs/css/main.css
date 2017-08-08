@@ -1,9 +1,9 @@
 /* CGCU Tempalte -
  * Updated by cmpoon
  -- General Styling -- */
-@import url(http://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic);
 html {
-    font-family: Arimo, Helvetica, Arial, sans-serif;
+    font-family: Arimo, "Helvetica Neue", Helvetica, Arial, sans-serif;
     position: relative;
     min-height: 100%;
 }
@@ -22,6 +22,8 @@ body {
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+	
+    font-family: Arimo, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .white-bkg {

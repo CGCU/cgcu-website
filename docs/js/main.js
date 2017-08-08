@@ -17,9 +17,8 @@ $().ready(function(){
   * Comittee table loader
   **/
   if (window.location.href.search("committee.html") !== -1){
-    var thisYear = "2017";
 
-    $.get("committeeTabs.php?year="+year, function( data ) {
+    $.get("committeeTabs.php", function( data ) {
       $("#committeeInfo").html( data );
       console.log( "Committee info loaded." );
     });
