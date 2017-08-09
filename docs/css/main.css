@@ -103,6 +103,7 @@ footer {
     /* padding-left: 20px; */
     color: white;
     text-shadow: 2px 2px 5px black;
+	white-space: nowrap;
 }
 
 h2.page-title{
@@ -115,6 +116,7 @@ h2.page-title{
   padding-left: 140px;
   color: white;
   text-shadow: 2px 2px 5px black;
+  white-space: nowrap;
   background-color: rgba(193, 25, 25,0.9);
 }
 
@@ -126,11 +128,13 @@ h2.page-title{
     margin-top: 170px;
     padding-left: 20px;
     color: black;
+   white-space: nowrap;
   }
 
 .page-title-invert span{
     /** new colouring **/
-    background-color: rgba(255,255,255,0.8)
+    background-color: rgba(255,255,255,0.8);
+    white-space: nowrap;
 }
 
 .
