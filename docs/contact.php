@@ -257,7 +257,7 @@ header("Location: contact.html");
                 <img class="img-responsive" src="images/footer.png" alt="Footer Divider" width="1253" height="232">
 
                 <div class="text-center text-muted">
-                    &copy; City and Guilds College Union 2016
+                    &copy; City and Guilds College Union 2018
                 </div>
             </div>
         </footer>
