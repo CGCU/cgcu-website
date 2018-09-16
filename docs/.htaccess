@@ -1,0 +1,36 @@
+# Redirect guilds subdirectories
+Redirect 301 /aero http://aerosoc.co.uk
+Redirect 301 /bioeng https://www.union.ic.ac.uk/guilds/bioeng
+Redirect 301 /chemeng http://chemengsoc.com
+Redirect 301 /civsoc https://union.ic.ac.uk/guilds/civsoc
+Redirect 301 /clem https://union.ic.ac.uk/rcc/rsmmotor
+Redirect 301 /dessoc https://union.ic.ac.uk/guilds/dessoc
+Redirect 301 /docsoc https://docsoc.co.uk
+Redirect 301 /eesoc https://eesoc.com
+Redirect 301 /ewb https://union.ic.ac.uk/guilds/ewb
+Redirect 301 /icdss https://union.ic.ac.uk/guilds/icdss
+Redirect 301 /icracing https://union.ic.ac.uk/guilds/icracing
+Redirect 301 /icseds https://union.ic.ac.uk/guilds/icseds
+Redirect 301 /live https://live.cgcu.net
+Redirect 301 /mechsoc http://www.mechsoc.com
+Redirect 301 /motor https://union.ic.ac.uk/guilds/motor
+Redirect 301 /robotics http://icrobotics.co.uk
+Redirect 301 /rugby https://union.ic.ac.uk/guilds/rugby
+Redirect 301 /tickets https://union.ic.ac.uk/guilds/tickets
+Redirect 301 /winterball https://winterball.cgcu.net
+Redirect 301 /elections https://www.imperialcollegeunion.org/your-union/leadership-elections-2018/available-roles/constituent-union-leaders/cgcu-committee-role
+
+Redirect 301 /shop https://www.imperialcollegeunion.org/shop/club-society-project-products/city-&-guilds-union-products
+
+# Redirect old paths
+Redirect 301 /cgcu/ /
+
+Redirect 301 /vat /vat.html
+
+# Club feedback form July 2018
+Redirect 301 /feedback https://goo.gl/forms/Z6jWJXm86DoGVhTZ2
+
+ErrorDocument	404	/error.html
+
+RewriteEngine On
+RewriteRule ^week$ week.php
