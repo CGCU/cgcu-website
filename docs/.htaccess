@@ -16,19 +16,18 @@ Redirect 301 /mechsoc http://www.mechsoc.com
 Redirect 301 /motor https://union.ic.ac.uk/guilds/motor
 Redirect 301 /robotics http://icrobotics.co.uk
 Redirect 301 /rugby https://union.ic.ac.uk/guilds/rugby
-Redirect 301 /tickets https://union.ic.ac.uk/guilds/tickets
-Redirect 301 /winterball https://winterball.cgcu.net
+Redirect 301 /tickets https://www.imperialcollegeunion.org/shop/club-society-project-products/city-guilds-union-products/23894/final-release-welcome-dinner-tickets-
 Redirect 301 /elections https://www.imperialcollegeunion.org/your-union/leadership-elections-2018/available-roles/constituent-union-leaders/cgcu-committee-role
 
 Redirect 301 /shop https://www.imperialcollegeunion.org/shop/club-society-project-products/city-&-guilds-union-products
+
+Redirect 301 /dinner https://www.facebook.com/events/538834613239338/
+Redirect 301 /talk https://docs.google.com/presentation/d/1Y26fXN7j_VNBlKvYiMmwTLr9nY5nU-P4uxskZpeYRTE/edit#slide=id.g3f7713aa97_0_61
 
 # Redirect old paths
 Redirect 301 /cgcu/ /
 
 Redirect 301 /vat /vat.html
-
-# Club feedback form July 2018
-Redirect 301 /feedback https://goo.gl/forms/Z6jWJXm86DoGVhTZ2
 
 ErrorDocument	404	/error.html
 
