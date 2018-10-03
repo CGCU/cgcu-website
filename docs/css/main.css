@@ -22,7 +22,7 @@ body {
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-	
+
     font-family: Arimo, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -222,4 +222,26 @@ h2.page-title{
         line-height: 1.4;
     }
     COMMENTED OUT */
+}
+
+#committee-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#committee-info:before {
+    content: none;
+}
+
+.committee-photo {
+    width: 100px;
+    height: 100px;
+}
+
+.committee-profile {
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
 }

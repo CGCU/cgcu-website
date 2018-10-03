@@ -50,21 +50,20 @@
     // Do something with the result from the database
     // Null checks are present on the non-required fields
     while ($row = $result->fetch_assoc()) {
-		
-		if (empty($row["imageSourceURL"])){
+
+		// if (empty($row["imageSourceURL"])){
 			$row["imageSourceURL"] = "images/committee/headshots/default.jpg";
-		}else if(strstr($row["imageSourceURL"],"//") === false){
-			$row["imageSourceURL"] = "images/committee/headshots/".$row["imageSourceURL"];
-		}
-		
-        echo '<div class="container well white-bkg">';
+		// } else if(strstr($row["imageSourceURL"],"//") === false) {
+			// $row["imageSourceURL"] = "images/committee/headshots/".$row["imageSourceURL"];
+		// }
+
+        echo '<div class="committee-profile">';
+        echo    '<img src="'. $row["imageSourceURL"] . '" class="img-responsive img-rounded center-block committee-photo" style="max-height: 250px">';
         echo    '<h3>' . $row["name"] . '</h3>';
         echo    '<h4>' . $row["position"] . '</h4>';
-        echo    '<br>';
-        echo    '<div class="col-sm-3"><img src="'. $row["imageSourceURL"] . '" class="img-responsive img-rounded center-block" style="max-height: 250px">';
 
         // icons on left under image
-        echo        '<div style="text-align: center; padding-top: 5px">';
+        echo        '<div class="icons">';
 
         if (!is_null($row["email"])) {
             echo        '<a target="_blank" rel="noopener noreferrer" href="mailto:' . $row["email"] .'">';
@@ -99,16 +98,8 @@
             echo        '</a>';
         }
 
-        // div for pull-right and left col
-        echo        '</div></div>';
-
-        // end icons
-
-        // right col
-        echo    '<div class="col-sm-9">';
-        echo        '<div class="committee-bio">' . $row["bio"] . '</div>';
-        // div for right col
-        echo     '</div>';
+        // div for icons
+        echo        '</div>';
 
         // big div for well container
         echo '</div>';

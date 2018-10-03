@@ -19,7 +19,7 @@ $().ready(function(){
   if (window.location.href.search("committee.html") !== -1){
 
     $.get("committeeTabs.php", function( data ) {
-      $("#committeeInfo").html( data );
+      $("#committee-info").html( data );
       console.log( "Committee info loaded." );
     });
   }
