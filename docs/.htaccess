@@ -26,6 +26,7 @@ Redirect 301 /talk https://docs.google.com/presentation/d/1Y26fXN7j_VNBlKvYiMmwT
 
 # Redirect old paths
 Redirect 301 /cgcu/ /
+Redirect 301 /bolt.html /guildsheet.html
 
 Redirect 301 /vat /vat.html
 
