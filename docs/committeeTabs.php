@@ -51,11 +51,11 @@
     // Null checks are present on the non-required fields
     while ($row = $result->fetch_assoc()) {
 
-		// if (empty($row["imageSourceURL"])){
+		if (empty($row["imageSourceURL"])){
 			$row["imageSourceURL"] = "images/committee/headshots/default.jpg";
-		// } else if(strstr($row["imageSourceURL"],"//") === false) {
-			// $row["imageSourceURL"] = "images/committee/headshots/".$row["imageSourceURL"];
-		// }
+		} else if(strstr($row["imageSourceURL"],"//") === false) {
+			$row["imageSourceURL"] = "images/committee/headshots/".$row["imageSourceURL"];
+		}
 
         echo '<div class="committee-profile">';
         echo    '<img src="'. $row["imageSourceURL"] . '" class="img-responsive img-rounded center-block committee-photo" style="max-height: 250px">';

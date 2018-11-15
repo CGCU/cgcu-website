@@ -16,11 +16,15 @@ Redirect 301 /mechsoc http://www.mechsoc.com
 Redirect 301 /motor https://union.ic.ac.uk/guilds/motor
 Redirect 301 /robotics http://icrobotics.co.uk
 Redirect 301 /rugby https://union.ic.ac.uk/guilds/rugby
+
+# Aliases
 Redirect 301 /tickets https://www.imperialcollegeunion.org/shop/club-society-project-products/city-guilds-union-products/23894/final-release-welcome-dinner-tickets-
 Redirect 301 /elections https://www.imperialcollegeunion.org/your-union/leadership-elections-2018/available-roles/constituent-union-leaders/cgcu-committee-role
-
+Redirect 301 /officeuse https://docs.google.com/document/d/12SQ7254N63Ldso-PI2xPcsYmCQPWc3D3xnJ60I_7H-8/view
+Redirect 301 /overheard https://goo.gl/forms/UdKDRIr2r7Wmzv3C2
+Redirect 301 /councilreport https://docs.google.com/document/d/1aBzIJcOVC2HqBDQT7D8Wq6hABS4FcgKCA8XFzBz3plc/edit
+Redirect 301 /ah https://calendly.com/cgcu-president
 Redirect 301 /shop https://www.imperialcollegeunion.org/shop/club-society-project-products/city-&-guilds-union-products
-
 Redirect 301 /dinner https://www.facebook.com/events/538834613239338/
 Redirect 301 /talk https://docs.google.com/presentation/d/1Y26fXN7j_VNBlKvYiMmwTLr9nY5nU-P4uxskZpeYRTE/edit#slide=id.g3f7713aa97_0_61
 
@@ -28,9 +32,11 @@ Redirect 301 /talk https://docs.google.com/presentation/d/1Y26fXN7j_VNBlKvYiMmwT
 Redirect 301 /cgcu/ /
 Redirect 301 /bolt.html /guildsheet.html
 
-Redirect 301 /vat /vat.html
-
-ErrorDocument	404	/error.html
-
+# Rewrite rules
 RewriteEngine On
-RewriteRule ^week$ week.php
+# Remove file suffixes
+RewriteRule ^(tickets|tickets-link-admin|committeeTabs|contact)$ $1.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+ErrorDocument 404 /error.html
