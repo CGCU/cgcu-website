@@ -36,7 +36,7 @@ Redirect 301 /gs/crashcourse https://www.youtube.com/user/crashcourse
 Redirect 301 /gs/musicpretend https://open.spotify.com/playlist/75siDciP4OPgp75Vskq1Aq?si=LOkGJGoGSc-d8KfuNYzdTQ
 Redirect 301 /gs/thesmiths https://open.spotify.com/user/spotify/playlist/37i9dQZF1DXcXcgZ946sSC?si=upt5RGOeTlifpvJgdMy-xw
 Redirect 301 /gs/skin https://open.spotify.com/show/5NzC2VbpEKYas4IRSauhNi?si=_oR7KmwzRc-YpOIOxBKrNQ
-Redirect 301 /gs/constancerosas https://www.youtube.com/channel/UCJ2LolVq-OTcuK02fN-h6Wg
+Redirect 301 /gs/constancarosas https://www.youtube.com/channel/UCJ2LolVq-OTcuK02fN-h6Wg
 Redirect 301 /gs https://www.cgcu.net/guildsheet
 
 # Redirect old paths
