@@ -27,6 +27,8 @@ Redirect 302 /shop https://www.imperialcollegeunion.org/shop/club-society-projec
 Redirect 302 /dinner https://www.facebook.com/events/538834613239338/
 Redirect 302 /talk https://docs.google.com/presentation/d/1Y26fXN7j_VNBlKvYiMmwTLr9nY5nU-P4uxskZpeYRTE/edit#slide=id.g3f7713aa97_0_61
 Redirect 302 /enter mailto:guilds.regalia@imperial.ac.uk?subject=Regalia%20Competition
+Redirect 302 /schools https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTB4xSKdXaW9ZImpjhtGm4stBUNk00TFg2TUwyTUFHTlpYRkMxSkY4V0EzVy4u
+Redirect 302 /diversity https://www.facebook.com/events/293123184877438/
 
 # Guildsheet links
 Redirect 301 /gs/stanlee https://www.youtube.com/watch?v=HnByuUqMeko
