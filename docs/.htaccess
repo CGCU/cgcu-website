@@ -45,6 +45,9 @@ Redirect 301 /gs https://www.cgcu.net/guildsheet
 Redirect 301 /cgcu/ /
 Redirect 301 /bolt.html /guildsheet.html
 
+# Temporary Redirects
+Redirect 301 /nominate https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTBxNyXCTUmGBBoMkdHn3myE5UMVdLRklSV0xBMFpYSEsxR0dTUVpNQ1A0SC4u
+
 # Rewrite rules
 RewriteEngine On
 # Remove file suffixes
