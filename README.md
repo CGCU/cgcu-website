@@ -1,6 +1,6 @@
 # CGCU Front End Template
 
-### Maintained by: Chung Poon
+### Maintained by: Kian Mayne
 ### Created by: Andrew Hill
 
 [City and Guilds Union](https://cgcu.net) - Year 2017-18
