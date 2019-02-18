@@ -127,7 +127,7 @@
     <!-- Start of page content -->
 
 
-    <div class="jumbotron jumbotronTitle jumbotronImg" style="background-image: url('images/freshers/freshers-banner.jpg')" >
+    <div class="jumbotron jumbotronTitle jumbotronImg" style="background-image: url('images/elections/temp-banner.jpg')" >
     <div class="container">
         <h1 class="page-title"><span>Elections</span></h1>
     </div>
@@ -190,6 +190,18 @@
         <script type="text/javascript" src="js/navbar.js"></script>
 
         <script>
+            function scrollToPosition(e, that) {
+                e = e || window.event;
+                e.preventDefault();
+                console.log(this)
+                let target = document.querySelector(that.getAttribute("href")),
+                    p = target.offsetTop,
+                    offset = 50;
+
+                p = p - offset;
+                $('body, html').animate({ 'scrollTop': p }, 250);
+            }
+
             $.get("data/nominations.json", function(data) {
                 // format of nominations.json
                 // {
@@ -216,7 +228,7 @@
                 let list2 = "";
                 for (let i = 0; i < numRoles; i++) {
                     let descObj = roleDescriptions[i];
-                    let toAppend = `<li><a href="#${descObj.id}">${descObj.roleName}</a></li>`;
+                    let toAppend = `<li><a href="#${descObj.id}" onclick="scrollToPosition(event, this)">${descObj.roleName}</a></li>`;
                     if(i < numRolesInEachList) {
                         list1 += toAppend;
                     } else {
