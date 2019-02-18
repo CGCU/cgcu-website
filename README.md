@@ -3,7 +3,7 @@
 ### Maintained by: Kian Mayne
 ### Created by: Andrew Hill
 
-[City and Guilds Union](https://cgcu.net) - Year 2017-18
+[City and Guilds Union](https://cgcu.net)
 
 This repo contains the HTML template and content for the CGCU.net website.
 The (not completed) backend which is handled by Laravel Framework is in another branch.
