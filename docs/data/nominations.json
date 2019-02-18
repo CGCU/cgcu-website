@@ -1,0 +1,52 @@
+{
+  "roleDescriptions": [
+    {
+      "roleName": "President",
+      "id": "pres",
+      "roleDescription": [
+        "P1 This is text",
+        "P2 This is more text"
+      ],
+      "responsibilities": [
+        "Responsibility 1",
+        "Responsibility 2"
+      ],
+      "skills": [
+        "Skill 1",
+        "Skill 2"
+      ]
+    },
+    {
+      "roleName": "Vice President",
+      "id": "vp",
+      "roleDescription": [
+        "P1 This is text worns;doniew",
+        "P2 This is more textof owrufnsjn"
+      ],
+      "responsibilities": [
+        "Responsibility 3",
+        "Responsibility 4"
+      ],
+      "skills": [
+        "Skill 3",
+        "Skill 4"
+      ]
+    },
+    {
+      "roleName": "Vice President2",
+      "id": "vp1",
+      "roleDescription": [
+        "P1 This is text worns;doniew",
+        "P2 This is more textof owrufnsjn"
+      ],
+      "responsibilities": [
+        "Responsibility 3",
+        "Responsibility 4"
+      ],
+      "skills": [
+        "Skill 3",
+        "Skill 4"
+      ]
+    }
+  ]
+}
