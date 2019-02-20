@@ -19,7 +19,6 @@ Redirect 301 /rugby https://union.ic.ac.uk/guilds/rugby
 
 # Aliases
 Redirect 302 /tickets https://www.imperialcollegeunion.org/shop/club-society-project-products/city-guilds-union-products/23894/final-release-welcome-dinner-tickets-
-Redirect 302 /elections https://www.imperialcollegeunion.org/your-union/leadership-elections-2019/constituent-union-committee-roles
 Redirect 302 /officeuse https://docs.google.com/document/d/12SQ7254N63Ldso-PI2xPcsYmCQPWc3D3xnJ60I_7H-8/view
 Redirect 302 /overheard https://goo.gl/forms/UdKDRIr2r7Wmzv3C2
 Redirect 302 /ah https://calendly.com/cgcu-president
