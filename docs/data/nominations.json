@@ -1,52 +1,491 @@
-{
-  "roleDescriptions": [
-    {
-      "roleName": "President",
-      "id": "pres",
-      "roleDescription": [
-        "P1 This is text",
-        "P2 This is more text"
-      ],
-      "responsibilities": [
-        "Responsibility 1",
-        "Responsibility 2"
-      ],
-      "skills": [
-        "Skill 1",
-        "Skill 2"
-      ]
-    },
-    {
-      "roleName": "Vice President",
-      "id": "vp",
-      "roleDescription": [
-        "P1 This is text worns;doniew",
-        "P2 This is more textof owrufnsjn"
-      ],
-      "responsibilities": [
-        "Responsibility 3",
-        "Responsibility 4"
-      ],
-      "skills": [
-        "Skill 3",
-        "Skill 4"
-      ]
-    },
-    {
-      "roleName": "Other role",
-      "id": "vp1",
-      "roleDescription": [
-        "P1 This is text worns;doniew",
-        "P2 This is more textof owrufnsjn"
-      ],
-      "responsibilities": [
-        "Responsibility 3",
-        "Responsibility 4"
-      ],
-      "skills": [
-        "Skill 3",
-        "Skill 4"
-      ]
-    }
-  ]
-}
+[
+  {
+    "roleDescription": [
+      "The role requires a natural leader who is very good at building strong relationships and managing their time effectively. It is a very demanding and time-consuming role, but is very rewarding where you can learn and grow so much within the relatively short 1 year term.",
+      "Engineering is the biggest faculty at Imperial, and as President you are ultimately responsible for approximately 4,200 undergraduate students. The President is ultimately responsible for all of the CGCU’s Activities, and relations.",
+      "Compared to the Vice President, the President works to lead the CGCU into the future, by working with ICU to shape their policy, and College to ensure the student voice is key in their decision making process. However, to do this you will need help, so you will need to work very closely with the 25-strong General Committee, department representatives and society chairs, where delegation is key.",
+      "The CGCU President is expected to work on matters for 8 weeks of summer. The President is paid during summer for these 8 weeks, since it is hard to balance doing an internship and the President role during the holidays. The CGCU has a key responsibility in welcoming in 1200+ freshers to Imperial College, and this summer work is important preparation for that, in addition to preparation for Union activities, campaigns and initiatives throughout the year."
+    ],
+    "responsibilities": [
+      "Overseeing all aspects of the CGCU, ultimately responsible for the CGCU’s activities, from Finances to Events and Societies to Communication.",
+      "Ensure, with the Vice President, that CGCU day-to-day operations run smoothly.",
+      "Lead the CGCU and shape its direction into the future, working closely with CGCU Officers to do so.",
+      "Work with ICU President, Deputy Presidents, and Staff in shaping ICU policy and activities in the interest of Engineers and the CGCU.",
+      "Work with Faculty and College in the representation of 4200 engineering students.",
+      "Work with external partners including Alumni (the City and Guilds College Association) and Industrial partners in the interests of Imperial’s Engineers."
+    ],
+    "skills": [
+      "For this role it is recommended that you’ve had some other experience as part of a committee within Imperial College Union",
+      "Approachable",
+      "Time Management",
+      "Delegation",
+      "Decisive",
+      "People skills / managerial skills",
+      "Leadership"
+    ],
+    "roleName": "President"
+  },
+  {
+    "roleDescription": [
+      "The Vice President (a new position this year) is an exciting opportunity to get involved with every aspect of the CGCU. You will work very closely with the President in all areas to ensure the union runs smoothly, and works for all of its 4200 students.",
+      "Compared to the President, this role is intended to look more towards the smooth running of the CGCU Committee, its officers, societies, and representatives. Working with the CGCU Committee, you will be in charge of fostering a productive environment for the committee, allowing them to carry out their duties effectively, by ensuring the committee stay engaged with each other and motivated."
+    ],
+    "responsibilities": [
+      "Deputise for the President, as required",
+      "Lead the committees of the CGCU",
+      "Chair the Executive and General Committees",
+      "Facilitate communication between the CGCU’s Officers, Committees, Representatives, and Societies",
+      "Ensure the CGCU is heading in the right direction as set by strategy"
+    ],
+    "skills": [
+      "For this role it is recommended that you’ve had some other experience as part of any committee within Imperial College Union.",
+      "Approachable",
+      "People skills / managerial skills",
+      "Delegation",
+      "Decisive",
+      "Time management"
+    ],
+    "roleName": "Vice President"
+  },
+  {
+    "roleDescription": [
+      "Being Activities Chair is a commitment to showcasing the City and Guilds College Union. The events you will organise will be the most visible side of the actions led by CGCU, they are the face of the Union, what people see and remember. From formal dinners to club nights to sports-days, you can let your imagination take control to come up with the most engaging and exciting events!",
+      "You will be leading the Activities committee in the organisation of events which will make the Guildspeople have the best time at Imperial as possible!",
+      "The role requires planning events for freshers week over summer, so be ready to help especially during September."
+    ],
+    "responsibilities": [
+      "Oversee the Events and Sports of the CGCU",
+      "Lead the CGCU Activities Team",
+      "Lead the organisation of the CGCU Freshers events timetable",
+      "Includes all of the responsibilities of the Events Officers",
+      "Come up with and implement new event ideas"
+    ],
+    "skills": [
+      "Organisation",
+      "Proactive",
+      "Time management"
+    ],
+    "roleName": "Activities Chair"
+  },
+  {
+    "roleDescription": [
+      "The CGCU does many great things, from running events to managing clubs and making changes to the the Imperial experience through the rep structure. But, how do students know the Guilds does all of this?  As communications chair, you will responsible for getting that message out to our 4200+ members.",
+      "To do so, you will need to experiment and explore new ways to deliver your message, to reach the varied audiences we have within our faculty. A puppies event next week? Done. Promoting elections? Done. Promoting Wellbeing and Student Opportunities? Done. It is an extremely dynamic position which changes by the week, in function of what the Academic, Wellbeing and Events chairs will need help with.",
+      "This role enjoys a high degree of flexibility. Instead of being focused on one aspect of the Guilds, you will be able to take part in the debate across all areas, from representation to events. This may be nerve wrecking at times, but overall I had a great experience to mature those creative skills which sometimes engineering degrees lack. On top of this, you will have the opportunity to work with our Guildsheet Editors, Media and Marketing and Regalia Officers which will do the best to assist you in delivering fresh and creative content across campus via our outlets.",
+      "So, what are you waiting for?",
+      "Become our next Comms. Chair, and lead the change you want to see!",
+      "The role requires leading publicity when we welcome in our freshers over summer, so be ready to help especially during September."
+    ],
+    "responsibilities": [
+      "Manage a committee of 6 officers and work together to communicate the union’s activities to students in a multitude of ways",
+      "Lead the publicity for Freshers and oversee development of the freshers guide (Spanner)",
+      "Lead the elections push during nominations and voting",
+      "Work with key stakeholders and teams across the Guilds and ICU to promote current student issues, activities, aiming to communicate and gain input from our students",
+      "Gain input from students in current issues",
+      "Work with key stakeholders and teams across the Guilds to gain this content",
+      "Work with ICU staff and officers in publicising applicable activities",
+      "Oversee the the CGCU’s social media presence",
+      "Oversee the CGCU’s Regalia activities",
+      "Work to create a sense of community within the Faculty of Engineering"
+    ],
+    "skills": [
+      "Creativity",
+      "People management",
+      "Experience or willing to learn publicity / marketing techniques"
+    ],
+    "roleName": "Communications Chair"
+  },
+  {
+    "roleDescription": [
+      "As Clubs and Societies Chair you are responsible for overlooking the 17 clubs and societies that form part of the City and Guilds College Union. You are tasked with supporting them on an organisational level as well as helping them stay in line with the Union’s financial policies.",
+      "You have visibility over all clubs’ financial transactions and need to make sure that all of them are done correctly to ensure that societies’ planned activities run without any delays or difficulties, which occasionally involves a few runs to the Union. You are the clubs’ first point of contact to answer any questions they may have, which often involves digging through the Union website or getting in touch with the right people.",
+      "Throughout the year you sit on the Clubs, Societies and Projects Board (CSPB) where you have a voice in deciding policies that affect clubs across the whole college! Here you also have the duty of representing the CGCU clubs’ views and concerns.",
+      "You work very closely with the Clubs and Societies Officer, ICU’s Officer Trustees and ICU Staff to get all of this done – you are not alone, and will get a lot of help and support.",
+      "Throughout the year you have the chance to see clubs develop and run some exciting events, where you know you played an important role in making it happen. This is what makes it a very rewarding experience!",
+      "If you have any further questions don’t hesitate to get in touch with Nic via email at guilds.vpcs@imperial.ac.uk."
+    ],
+    "responsibilities": [
+      "Maintaining a watchful eye on the clubs, their activities and £250k of their expenditure",
+      "Consistently checking eActivities to approve (or reject) clubs’ financial transactions",
+      "Working closely with the Clubs and Societies Officer, ICU’s Officer Trustees and ICU Staff",
+      "Developing CGCU Club officers to help them be the best they can be",
+      "Represent CGCU clubs at ICU CSPB meetings",
+      "Oversee the Annual Budgeting process for CGCU clubs"
+    ],
+    "skills": [
+      "Organisation",
+      "People skills & management",
+      "Ideally prior experience in a role which manages finances (e.g. Club chair or Treasurer)"
+    ],
+    "roleName": "Clubs and Societies Chair"
+  },
+  {
+    "roleDescription": [
+      "As Clubs and Societies Officer you are responsible for assisting the Clubs and Societies Chair in overlooking the 17 clubs and societies that form part of the City and Guilds College Union. You are tasked with supporting them on an organisational level as well as helping them stay in line with the Union’s financial policies. You act as the deputy to the Clubs and Societies Chair, but the responsibilities are more or less the same.",
+      "You have visibility over all clubs’ financial transactions and need to make sure that all of them are done correctly to ensure that societies’ planned activities run without any delays or difficulties, which occasionally involves a few runs to the Union. You are the clubs’ first point of contact to answer any questions they may have, which often involves digging through the Union website or getting in touch with the right people.",
+      "Throughout the year you sit on the Clubs, Societies and Projects Board (CSPB) where you have a voice in deciding policies that affect clubs across the whole college! Here you also have the duty of representing the CGCU clubs’ views and concerns.",
+      "You work very closely with the Clubs and Societies Chair, ICU’s Officer Trustees and ICU Staff to get all of this done – you are not alone, and will get a lot of help and support.",
+      "Throughout the year you have the chance to see clubs develop and run some exciting events, where you know you played an important role in making it happen. This is what makes it a very rewarding experience!",
+      "If you have any further questions don’t hesitate to get in touch with Owen via email at guilds.cso@imperial.ac.uk."
+    ],
+    "responsibilities": [
+      "Assist the Clubs and Societies Chair in all of the below responsibilities",
+      "Maintaining a watchful eye on the clubs, their activities and £250k of their expenditure",
+      "Consistently checking eActivities to approve (or reject) clubs’ financial transactions",
+      "Working closely with the Clubs and Societies Officer, ICU’s Officer Trustees and ICU Staff",
+      "Developing CGCU Club officers to help them be the best they can be",
+      "Represent CGCU clubs at ICU CSPB meetings",
+      "Oversee the Annual Budgeting process for CGCU clubs"
+    ],
+    "skills": [
+      "Organisation",
+      "People skills & management",
+      "Ideally prior experience in a role which manages finances (e.g. Club chair or Treasurer)"
+    ],
+    "roleName": "Clubs and Societies Officer"
+  },
+  {
+    "roleDescription": [
+      "At the heart of CGCU, the Education Chair’s role is a unique opportunity to solve academic issues faced by over 4200 students, helping to improve teaching standards across the Faculty of Engineering. You will not be alone in this role, you will be supported by the Education Officer who will act as your deputy.",
+      "You will work closely with Academic Dep Reps to help them excel in their role and bring department issues to faculty level, where you will work with senior Faculty staff to help solve them. The role also includes constant communication with Imperial College Union's Deputy President (Education) to ensure that the Faculty of Engineering is heading in the right direction in line with other faculties.",
+      "This role will be great for you if you have had previous experience of student academic representation and now feel keen to widen your perspective from your Department to the entire Faculty. You will be invited to Faculty Teaching Committee meetings, Faculty Education Committee meetings and Student-Staff departmental meetings each term. In addition to this you will also sit on the Education and Representation Board, Union Council and the CGCU Committee which meet more frequently."
+    ],
+    "responsibilities": [
+      "Manage and assist the CGCU Academic Department Representatives in their role",
+      "Raise issues at faculty level and work with Faculty Staff to solve them",
+      "Raise issues from faculty and department to college-wide level via Union Council, and Education Representation Board",
+      "Work with other CGCU teams to help you in your role",
+      "Attend Union Council once a month",
+      "Ease of access to shared training and resources",
+      "Attend Education & Representation Board (ERB) four times a year",
+      "Attend Faculty Teaching and Education Committees (FTC and FEC) once a month",
+      "Work with ICU Deputy President (Education) and ICU Staff on campaigns/issues",
+      "Help facilitate communication with department representatives and their staff",
+      "Participate in the general leadership of the CGCU"
+    ],
+    "skills": [
+      "Organisation & time keeping",
+      "You will be expected to attend a lot of meetings",
+      "Communication",
+      "Proactive"
+    ],
+    "roleName": "Education Chair"
+  },
+  {
+    "roleDescription": [
+      "At the heart of CGCU, the Education Officer’s role is a unique opportunity to solve academic issues faced by over 4200 students, helping to improve teaching standards across the Faculty of Engineering. You will not be alone in this role, you will act as a deputy to the Education Chair.",
+      "You will work closely with Academic Dep Reps to help them excel in their role and bring department issues to faculty level, where you will work with senior Faculty staff to help solve them. The role also includes constant communication with Imperial College Union's Deputy President (Education) to ensure that the Faculty of Engineering is heading in the right direction in line with other faculties.",
+      "This role will be great for you if you have had previous experience of student academic representation and now feel keen to widen your perspective from your Department to the entire Faculty. You will be invited to Faculty Teaching Committee meetings, Faculty Education Committee meetings and Student-Staff departmental meetings each term. In addition to this you will also sit on the Education and Representation Board, Union Council and the CGCU Committee which meet more frequently."
+    ],
+    "responsibilities": [
+      "Work with the CGCU Education Chair",
+      "Manage and assist the CGCU Academic Department Representatives in their role",
+      "Raise issues at faculty level and work with Faculty Staff to solve them",
+      "Raise issues from faculty and department to college-wide level via Union Council, and Education Representation Board",
+      "Work with other CGCU teams to help you in your role",
+      "Ease of access to shared training and resources",
+      "Attend Education & Representation Board (ERB) four times a year",
+      "Attend Faculty Teaching and Education Committees (FTC and FEC) once a month",
+      "Work with ICU Deputy President (Education) and ICU Staff on campaigns/issues",
+      "Help facilitate communication with department representatives and their staff",
+      "Participate in the general leadership of the CGCU"
+    ],
+    "skills": [
+      "Organisation & time keeping",
+      "You will be expected to attend a lot of meetings",
+      "Communication",
+      "Proactive"
+    ],
+    "roleName": "Education Officer"
+  },
+  {
+    "roleDescription": [
+      "As Wellbeing Chair, you will work with the Wellbeing Officer to represent the non-academic concerns of all Undergraduate engineering students, whatever those concerns may be.",
+      "An understanding of the personal issues faced by students across all sections of the engineering community is important for the role. Promoting wellbeing issues to the student body is a key aspect of the role.",
+      "Your primary responsibility is in overseeing the Wellbeing Department Representatives within the CGCU - 10+ dep reps across 8 departments. You then are responsible for raising important issues from departments in Faculty and ICU meetings.",
+      "You also have a lot of potential to run welfare events, with the help of the CGCU Events Officers. Consider key campaigns or events you’d like to run, as well as collaborating with Imperial College Union’s Deputy President (Welfare) to maximise lasting positive impact on the college. Everyone loves feel-good events, but a legacy of changing attitudes and cultures is a much more exciting prospect, within the reach of your role!",
+      "However, at no point are you ever a counsellor! Reassuring students who may seek advice with personal matters is an important responsibility. Signposting to support services, internal and external, is crucial."
+    ],
+    "responsibilities": [
+      "Work with Imperial College Union's Deputy President (Welfare)",
+      "Sit on ICU Council, representing Engineering students’ views on union-wide policy",
+      "Represent the engineering student-wide opinions in meetings and campaigns",
+      "Attend Community and Welfare Board (CWB) six times a year",
+      "Attend Faculty SSC (Wellbeing) meetings twice a term",
+      "Promote wellbeing",
+      "Hand out free welfare supplies",
+      "Manage, assist and advise the Wellbeing Representatives"
+    ],
+    "skills": [
+      "Enthusiastic",
+      "Want to help make a positive change to student wellbeing",
+      "Organised",
+      "Approachable"
+    ],
+    "roleName": "Wellbeing Chair"
+  },
+  {
+    "roleDescription": [
+      "As Wellbeing Officer, you will work with the Wellbeing Chair to represent the non-academic concerns of all Undergraduate engineering students, whatever those concerns may be. You act as the deputy to the Wellbeing Chair, but the responsibilities are more or less the same.",
+      "An understanding of the personal issues faced by students across all sections of the engineering community is important for the role. Promoting wellbeing issues to the student body is a key aspect of the role.",
+      "Your primary responsibility is in overseeing the Wellbeing Department Representatives within the CGCU - 10+ dep reps across 8 departments. You then are responsible for raising important issues from departments in Faculty and ICU meetings.",
+      "You also have a lot of potential to run welfare events, with the help of the CGCU Events Officers. Consider key campaigns or events you’d like to run, as well as collaborating with Imperial College Union’s Deputy President (Welfare) to maximise lasting positive impact on the college. Everyone loves feel-good events, but a legacy of changing attitudes and cultures is a much more exciting prospect, within the reach of your role!",
+      "However, at no point are you ever a counsellor! Reassuring students who may seek advice with personal matters is an important responsibility. Signposting to support services, internal and external, is crucial."
+    ],
+    "responsibilities": [
+      "Support the VP (Wellbeing) in their responsibilities, acts as their deputy",
+      "Work with Imperial College Union's Deputy President (Welfare)",
+      "Represent the engineering student-wide opinions in meetings and campaigns",
+      "Attend Community and Welfare Board (CWB) six times a year",
+      "Attend Faculty SSC (Wellbeing) meetings twice a term",
+      "Promote wellbeing",
+      "Hand out free welfare supplies",
+      "Manage, assist and advise the Wellbeing Representatives"
+    ],
+    "skills": [
+      "Enthusiastic",
+      "Want to help make a positive change to student wellbeing",
+      "Organised",
+      "Approachable"
+    ],
+    "roleName": "Wellbeing Officer"
+  },
+  {
+    "roleDescription": [
+      "The Secretary is more than just minute-taking - they are one of the core members of the Executive Committee, a key part of the decision making process of the CGCU. You are expected to liaise with all committee members, assisting them in their role.",
+      "You will be managing and sending emails on a regular basis, and our reputation lies in your communications. Your vigilance is equally required - plus your English competency and communication skills will come to their test, as various materials (both in professional communication and internal publicity) will await your cautious proofreading."
+    ],
+    "responsibilities": [
+      "Oversee the accurate recording and compilation of minutes for all CGCU meetings, sending them out to all committee members afterwards",
+      "Keep track of action points for committee members, and ensure they are actioned",
+      "Ensure handover information is exchanged between incoming and outgoing CGCU Officers",
+      "Prepare regular update emails to be sent to all CGCU members",
+      "Provide general support in the organisation of CGCU events"
+    ],
+    "skills": [
+      "Good (written) English",
+      "Clear communication",
+      "Enthusiastic",
+      "Basic IT competency (sending emails, etc)"
+    ],
+    "roleName": "Secretary"
+  },
+  {
+    "roleDescription": [
+      "The Treasurer is responsible for CGCU finances. This mainly involved using eActivities (the union’s finances system) for a few hours per week to approve any exec finances, raise purchase orders, send off sales invoices, etc. You will keep track of many budgets for different purposes, and always be able to answer the question “how much money do we have for X?”.",
+      "As the ‘keeper of the purse’, you will be heavily involved in the financial decision process within the CGCU. With the President and the committee, you decide the budget for all activities, and also get creative with acquiring money. You will get the unique opportunity to manage ~£30k of expenditure, and get involved in all areas of the Guilds (because which area doesn’t need money!).",
+      "You will be in charge of the grant application to the Faculty and create the CGCU Exec’s annual budget for Imperial College Union."
+    ],
+    "responsibilities": [
+      "In charge of the CGCU finances: approving claims, budgets, etc, and overseeing the spending (will sign a financial responsibility form at the start of term)",
+      "Work with the President in writing the Grant Proposal to the Engineering Faculty over summer",
+      "Work with the President and Clubs Officers in writing the CGCU’s Annual Budget in January",
+      "Work with the CGCU Activities Team to create event budgets and manage event finances",
+      "Work with CGCU Committee members to complete day to day finances",
+      "Assist the Sponsorship Officer in procuring sponsorship",
+      "Provide general support of CGCU events",
+      "Work with Regalia Officer to make orders and keep track of regalia/marketing expenditure"
+    ],
+    "skills": [
+      "Good eye for numbers",
+      "Responsible/level-headed",
+      "Ability to say “no” when asked for money"
+    ],
+    "roleName": "Treasurer"
+  },
+  {
+    "roleDescription": [
+      "Implied by name of this position, its major role is to liaise with alumni groups. Our main alumni group is the City and Guilds College Association (CGCA), however there are also other alumni groups such as our founding Guilds (you can see all of their shields hanging in CAGB near the exit doors to Dalby Court), etc.",
+      "The responsibility includes going along with the CGCU President to attend CGCA Committee meetings and OC Trust meetings, who are the charitable arm of the CGCA. In meetings, we discuss about the organisation of new events, which aim to strengthen the close relationship between CGCU and CGCA. This year, we successfully organised joint events with CGCA, including the CGCU Welcome Dinner, Reunion Lunch and a Women in Engineering event. In addition, the Alumni Officer will be representing CGCU in a number of events organised by CGCA, such as the Annual Dinner (free ticket)."
+    ],
+    "responsibilities": [
+      "Liaise with alumni groups",
+      "Attend CGCA meetings every month or two",
+      "Attend OC Trust meetings every month or two",
+      "Hand out any award cheques to students from the OC Trust",
+      "Chair the awards committee",
+      "Work with the CGCU Activities team to plan and promote alumni events"
+    ],
+    "skills": [
+      "Good communication skills",
+      "Good at building relationships with a variety of people",
+      "Enthusiastic"
+    ],
+    "roleName": "Alumni Officer"
+  },
+  {
+    "roleDescription": [
+      "The position of CGCU Events Officer is a fun one, your opinions and views are listened to and considered by both the Activities Chair and the President. There are two positions and essentially you are there to help in both organising both small and large events, as well as running them on the night.",
+      "The events vary from Industry Talks to Puppy Therapy to the Annual Dinner. It is an exciting role and allows you to get an insight into organising dates, analysing venues, and making the events a success on a budget - all of which are made that much better by being in London, as quite often the options are endless."
+    ],
+    "responsibilities": [
+      "Work within the activities team, led by Activities Chair, to organise and run events",
+      "Plan the smaller events with the other Events Officer",
+      "Promote the CGCU events to students and on social media",
+      "Book rooms for events",
+      "Expected to turn up to all events"
+    ],
+    "skills": [
+      "Enthusiastic",
+      "Organised",
+      "Creative/got flair for event ideas"
+    ],
+    "roleName": "Events Officer (x2)"
+  },
+  {
+    "roleDescription": [
+      "You’ll be responsible for our larger mascot, the Spanner. You’ll work closely with the Bolt Bearer on securing the mascots safety at our events. While it’s not strictly a requirement, be prepared to be taunted by Alumni to lift the Spanner above your head during the BOOMALAKA, no easy feat with it weighing 64lb. You’ll also be involved with all the fun of mascotry, in which you should aim to bring pride and glory to the CGCU.",
+      "This is not as easy as it sounds as there are always students or alumni from RSMU and RCSU looking to steal our mascots for ransom, so you'll always have to be vigilant lest we lose the mascots to rival students. There is a reciprocal, however, as a bearer and you also attend the events of the other Constituent Unions to try to steal their mascots to ransom. This is an incredibly fun and social position and requires people of cunning to run for it.",
+      "In addition, you'll have the responsibility of planning CGCU events with the Vice President (Activities) and the other Events Officers, ranging from Freshers’ Fair to the Annual Dinner."
+    ],
+    "responsibilities": [
+      "Protect the Spanner from the RCSU and RSM",
+      "Plot and steal the Davy Lamp from RSM, Theta the Thermometer from RCSU, and the Phoenix Mascot outfit from ICSM",
+      "Attend events with Spanner, including Freshers Fair, CGCU Annual Welcome Dinner, Bar Nights, CGCA Reunion Lunch (free ticket), CGCA Annual Dinner (free ticket)",
+      "Work within the activities team, led by VP (Activities), to organise and run events, taking part in all aspects of that process",
+      "Expected to turn up to all CGCU events to keep your mascot safe!"
+    ],
+    "skills": [
+      "Organisation",
+      "Crafty-ness"
+    ],
+    "roleName": "Spanner Bearer (Events Officer)"
+  },
+  {
+    "roleDescription": [
+      "You’ll be responsible for our smaller (but heaviest!) mascot, the Bolt. You’ll work closely with the Spanner Bearer on securing the mascots safety at our events. While it’s not strictly a requirement, be prepared to be taunted by Alumni to lift the Bolt during the BOOMALAKA, no easy feat with it weighing 68lb. You’ll also be involved with all the fun of mascotry, in which you should aim to bring pride and glory to the CGCU.",
+      "This is not as easy as it sounds as there are always students or alumni from RSMU and RCSU looking to steal our mascots for ransom, so you'll always have to be vigilant lest we lose the mascots to rival students. There is a reciprocal, however, as a bearer and you also attend the events of the other Constituent Unions to try to steal their mascots to ransom. This is an incredibly fun and social position and requires people of cunning to run for it.",
+      "In addition, you'll have the responsibility of planning CGCU events with the Vice President (Activities) and the other Events Officers, ranging from Freshers’ Fair to the Annual Dinner."
+    ],
+    "responsibilities": [
+      "Protect the Bolt from the RCSU and RSM",
+      "Plot and steal the Davy Lamp from RSM, Theta the Thermometer from RCSU, and the Phoenix Mascot outfit from ICSM",
+      "Attend events with Bolt, including Freshers Fair, CGCU Annual Welcome Dinner, Bar Nights, CGCA Reunion Lunch (free ticket), CGCA Annual Dinner (free ticket)",
+      "Work within the activities team, led by VP (Activities), to organise and run events, taking part in all aspects of that process",
+      "Expected to turn up to all CGCU events to keep your mascot safe!"
+    ],
+    "skills": [
+      "Organisation",
+      "Crafty-ness"
+    ],
+    "roleName": "Bolt Bearer (Events Officer)"
+  },
+  {
+    "roleDescription": [
+      "The Sports Officer role is a fun and enjoyable one. The responsibilities are much lower than when compared to some of the other roles, but the stakes are never higher.",
+      "People love sport and those who compete in sport love winning (at least those who take it way too seriously do anyway). As the Sports Officer you will be solely in charge of bringing the people of the CGCU together through the common ground of sports. In the past this has included the mighty CGCU Football League(TM), but all options will be open to you to create.",
+      "From CGCU sports days to maybe even an CGCU park run on Monday mornings. You can also get involved in non-sport related CGCU activities and have a real say in big serious stuff. This role is perfect for anyone who loves sports and preferably someone who loves beating everyone else at them."
+    ],
+    "responsibilities": [
+      "Organise and promote the CGCU Football League",
+      "Look into other sporting opportunities the CGCU could partake in which students would like",
+      "Recommended Skills/Qualities",
+      "Enjoy being involved in sport",
+      "Enthusiastic",
+      "----",
+      "Media and Marketing Officer (x2)",
+      "This is an exciting opportunity to produce material which will be seen by thousands of engineering students across college.",
+      "The role of the Media & Marketing Officer is to manage and care for the CGCU as a brand and identity within Imperial College London. Whether that means maintaining the CGCU’s presence within social networks, producing posters and leaflets or designing the Freshers’ Handbook, this role requires a dash of creativity.",
+      "Handover support can be provided in learning Adobe software.",
+      "Responsibilities",
+      "Producing the vast content of marketing and promotional material for the union; facebook posts, instagram, printed posters and media - the works",
+      "Working with the other CGCU teams and officers to ensure the union’s publicity needs are met, e.g. for events / elections etc.",
+      "Procure relevant content to maintain a stable social media presence throughout the year",
+      "Work on the freshers and elections publicity pushes",
+      "Assist the webmaster in creating graphics for the website",
+      "Work with ICU Staff to publicise relevant college wide issues to our students"
+    ],
+    "skills": [
+      "Knowledge / willingness to learn Adobe software",
+      "Design skills / willingness to practice",
+      "Proactive in procuring content from across the CGCU"
+    ],
+    "roleName": "Sports Officer"
+  },
+  {
+    "roleDescription": [
+      "This is a role which gives you the opportunity to be creative, and design clothing and other merchandise to be worn by our membership.",
+      "This year we have created a sweatshirt line in two colours, which included working with suppliers, embroiders, and then later a photoshoot with models."
+    ],
+    "responsibilities": [
+      "Manage the online shop for CGCU Regalia",
+      "Design new Regalia",
+      "Working with suppliers to get the best value for our members",
+      "Work with the marketing team in marketing regalia"
+    ],
+    "skills": [
+      "Creativity",
+      "Organisation (keeping track of orders and stock)"
+    ],
+    "roleName": "Regalia Officer"
+  },
+  {
+    "roleDescription": [
+      "Your main responsibilities will be to always be on the search for sponsorship opportunities from companies for the CGCU, assist the in finding sponsorship for the Guildsheet magazine, help organise sponsor events with the CGCU Activities team, and write up the sponsorship contracts.",
+      "Over the summer you will reassess the CGCU Sponsorship Pack and make any edits needed before sending it out to companies. The success of this position is based on your ability to communicate, negotiate and be innovative. Gaining lots of sponsorship for the CGCU also looks great on your CV as demonstrates so many transferable skills!"
+    ],
+    "responsibilities": [
+      "Create the CGCU Sponsorship Pack",
+      "Contact sponsors and guide them through all stages of the process",
+      "Make sure sponsors are looked after",
+      "Work with the events team to do this",
+      "Make sure we receive the money through ICU financial processes"
+    ],
+    "skills": [
+      "Communication",
+      "Email-writing!",
+      "Proactive"
+    ],
+    "roleName": "Sponsorship Officer"
+  },
+  {
+    "roleDescription": [
+      "The CGCU webmaster is responsible for maintaining the https://CGCU.net website as well as generally improving the software support that the committee has. There are a number of exciting opportunities to build new tools such as a self-service link shortening system for committee to use, a brand new site for GuildSheet or whatever else you think would be helpful for the committee. This is a great chance to improve your web dev skills and get some great experience taking the initiative developing solutions to people's problems. As a good engineer, you'll know what's possible and will be able to anticipate and understand what could be helpful for your fellow committee members or even the wider CGCU community.",
+      "Currently, the website receives some minor updates but some work is required to improve the maintainability for the future (source code available at https://github.com/CGCU/cgcu-website). There's also a QR ticket app that is responsible for sending tickets for CGCU events and scanning them in that you would be responsible for maintaining."
+    ],
+    "responsibilities": [
+      "Maintain the CGCU website and existing software (QR Ticket Scanner)",
+      "Improve committee software support (e.g. admin automation)",
+      "Upload the issues of Guildsheet (CGCU Magazine) and Spanner (Freshers Guidebook) as they are released.",
+      "Maintain a record of CGCU Documents online, e.g. our Constitution, policies, and meeting minutes, in order to transparent to our members."
+    ],
+    "skills": [
+      "Proficiency / willingness to learn PHP, Javascript, HTML and CSS",
+      "Experience / willingness to learn the management of web servers",
+      "Understanding of DNS management",
+      "Some understanding of web security"
+    ],
+    "roleName": "Webmaster"
+  },
+  {
+    "roleDescription": [
+      "There area number of ways of approaching the job of Editor Guildsheet supremo. Probably the best way to start is simply from scratch with what you believe the Guilds Union, CGCU should be, what it is supposed to do and what student newspapers are supposed to be, and then take off in your own particular direction.",
+      "You have a small budget, but within you have complete editorial freedom (as long as the President/Committee say so). There is no reason to follow what we have done this year (but we hope you like it!). Choose a style, subjects to write about and then the method of production: just make sure to give the guilds students something to read and that will get them involved. Here are some reasons for you to do it:",
+      "You don't know anything about how newspapers are produced. I think anyone could be shown how to use InDesign and the basics of layout and design within a couple of hours. After that you're on your way.",
+      "You don't need to be a union hack (whatever that is). The whole point of having an election is to allow anyone at all to get the Job!",
+      "You don't have lots of time. Yes there is a lot of work, but you will have help - there are two roles available.",
+      "You don't need to be able to Spell. I'm no eckspurt at Spelin ither.",
+      "Ideally you, should able to talk other people into writing as much as possible, both to save you time and also to vary the texture of the magazine.",
+      "Finally, being GS editor is an unparalleled opportunity to have a good time. I think editing Guildsheet is about as much fun as is possible without breaking the law or making a mess on the carpet. If anyone wasn't to inquire to see us about this once in a lifetime opportunity then email guildsheet@ic.ac.uk, or visit CAGB 350 for a chat."
+    ],
+    "responsibilities": [
+      "Designing and editing every issue of Guildsheet; the 48-60 odd page Magazine of the Guilds Union. It’s a termly publication so two/three a year is enough for anyone!",
+      "Contacting all the required people e.g. Sports officer or different CGCU Societies, to write articles for the Sheet",
+      "Proofreading articles - this would be coordinated across the committee",
+      "You may be required to create most of the pages e.g. the crosswords or puzzles, layouts",
+      "Make sure any of the photos you require of both staff and students on campus are taken ready for each issue or source them if you can - coordinate with the media and marketing officer",
+      "Required to contact printing company, gaining a quote for the printing per issue and sending off the final document",
+      "RECRUIT your SQUAD - a team of minions to help you with its creation",
+      "Work with the )Hopefully good) sponsorship officer to find advertisement or sponsored articles"
+    ],
+    "skills": [
+      "Creativity and eye for design",
+      "Enthusiasm",
+      "Attention to detail",
+      "Past experience or the willingness to learn in Adobe programs e.g. InDesign - however familiarity with the programs is preferred",
+      "Need to be able to keep the printing deadline",
+      "Infinite patience and banter would help"
+    ],
+    "roleName": "Guildsheet Editor (x2)"
+  }
+]

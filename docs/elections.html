@@ -224,21 +224,19 @@
                 $('body, html').animate({ 'scrollTop': p }, 250);
             }
 
-            $.get("data/nominations.json", function(data) {
-                // format of nominations.json
-                // {
-                // "roleDescriptions": [
-                //     {
-                //         "roleName": "",
-                //         "id": "",
-                //         "roleDescription": ["", ""],
-                //         "responsibilities": ["", ""],
-                //         "skills": ["", ""]
-                //     }
-                //   ]
-                // }
-
-                const roleDescriptions = data.roleDescriptions;
+            $.get("data/nominations.json", function(roleDescriptions) {
+                /* format of nominations.json
+                {
+                "roleDescriptions": [
+                    {
+                        "roleName": "",
+                        "id": "",
+                        "roleDescription": ["", ""],
+                        "responsibilities": ["", ""],
+                        "skills": ["", ""]
+                    }
+                  ]
+                } */
 
                 // Display a clickable list of roles
 
@@ -310,6 +308,8 @@
                                 ${skills}
 
                             <br><p>If you have any questions about the role, please <a href="contact.html">get in touch</a>.</p>
+                            <p><a href="https://vote.union.ic.ac.uk/login.php">Nominate yourself for this role.</a></p>
+                            <p>For more information and the rules for the elections, <a href="https://www.imperialcollegeunion.org/your-union/leadership-elections-2019/information-for-candidates">click here.</p>
                         </div>`
                     );
                 });
