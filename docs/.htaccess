@@ -19,7 +19,7 @@ Redirect 301 /rugby https://union.ic.ac.uk/guilds/rugby
 
 # Aliases
 Redirect 302 /tickets https://www.imperialcollegeunion.org/shop/club-society-project-products/city-guilds-union-products/23894/final-release-welcome-dinner-tickets-
-Redirect 302 /elections https://www.imperialcollegeunion.org/your-union/leadership-elections-2018/available-roles/constituent-union-leaders/cgcu-committee-role
+Redirect 302 /elections https://www.imperialcollegeunion.org/your-union/leadership-elections-2019/constituent-union-committee-roles
 Redirect 302 /officeuse https://docs.google.com/document/d/12SQ7254N63Ldso-PI2xPcsYmCQPWc3D3xnJ60I_7H-8/view
 Redirect 302 /overheard https://goo.gl/forms/UdKDRIr2r7Wmzv3C2
 Redirect 302 /ah https://calendly.com/cgcu-president
@@ -29,8 +29,9 @@ Redirect 302 /talk https://docs.google.com/presentation/d/1Y26fXN7j_VNBlKvYiMmwT
 Redirect 302 /enter mailto:guilds.regalia@imperial.ac.uk?subject=Regalia%20Competition
 Redirect 302 /schools https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTB4xSKdXaW9ZImpjhtGm4stBUNk00TFg2TUwyTUFHTlpYRkMxSkY4V0EzVy4u
 Redirect 302 /diversity https://www.facebook.com/events/293123184877438/
+Redirect 302 /dogs http://cgcupuppies2019.eventbrite.co.uk/
 
-# Guildsheet links
+# Guildsheet links [these should not be changed as these links are in print]
 Redirect 301 /gs/stanlee https://www.youtube.com/watch?v=HnByuUqMeko
 Redirect 301 /gs/realeng https://www.youtube.com/channel/UCR1IuLEqb6UEA_zQ81kwXfg
 Redirect 301 /gs/vsauce https://www.youtube.com/channel/UC6nSFpj9HTCZ5t-N3Rm3-HA
