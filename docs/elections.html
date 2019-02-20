@@ -224,6 +224,10 @@
                 $('body, html').animate({ 'scrollTop': p }, 250);
             }
 
+            function generateAnchor(text) {
+              return text.toLowerCase().replace(/ /g, '-').replace(/[^A-Za-z0-9_-]/g, '');
+            }
+
             $.get("data/nominations.json", function(roleDescriptions) {
                 /* format of nominations.json
                 {
@@ -248,7 +252,7 @@
                 let list2 = "";
                 for (let i = 0; i < numRoles; i++) {
                     let descObj = roleDescriptions[i];
-                    let toAppend = `<li><a href="#${descObj.roleName.toLowerCase().replace(' ', '-')}" onclick="scrollToPosition(event, this)">${descObj.roleName}</a></li>`;
+                    let toAppend = `<li><a href="#${generateAnchor(descObj.roleName)}" onclick="scrollToPosition(event, this)">${descObj.roleName}</a></li>`;
                     if(i < numRolesInEachList) {
                         list1 += toAppend;
                     } else {
@@ -295,7 +299,7 @@
 
                     // glue it all together
                     $("#roleDescriptions").append(
-                        `<div class="container page-subtitle" id="${descObj.roleName.toLowerCase().replace(' ', '-')}">
+                        `<div class="container page-subtitle" id="${generateAnchor(descObj.roleName)}">
                             <h3>${descObj.roleName}</h3>
                         </div>
                         <div class="container well white-bkg">
