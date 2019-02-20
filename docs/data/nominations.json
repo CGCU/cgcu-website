@@ -378,16 +378,21 @@
     ],
     "responsibilities": [
       "Organise and promote the CGCU Football League",
-      "Look into other sporting opportunities the CGCU could partake in which students would like",
-      "Recommended Skills/Qualities",
+      "Look into other sporting opportunities the CGCU could partake in which students would like"
+    ],
+    "skills": [
       "Enjoy being involved in sport",
-      "Enthusiastic",
-      "----",
-      "Media and Marketing Officer (x2)",
+      "Enthusiastic"
+    ],
+    "roleName": "Sports Officer"
+  },
+  {
+    "roleDescription": [
       "This is an exciting opportunity to produce material which will be seen by thousands of engineering students across college.",
       "The role of the Media & Marketing Officer is to manage and care for the CGCU as a brand and identity within Imperial College London. Whether that means maintaining the CGCU’s presence within social networks, producing posters and leaflets or designing the Freshers’ Handbook, this role requires a dash of creativity.",
-      "Handover support can be provided in learning Adobe software.",
-      "Responsibilities",
+      "Handover support can be provided in learning Adobe software."
+    ],
+    "responsibilities": [
       "Producing the vast content of marketing and promotional material for the union; facebook posts, instagram, printed posters and media - the works",
       "Working with the other CGCU teams and officers to ensure the union’s publicity needs are met, e.g. for events / elections etc.",
       "Procure relevant content to maintain a stable social media presence throughout the year",
@@ -400,7 +405,7 @@
       "Design skills / willingness to practice",
       "Proactive in procuring content from across the CGCU"
     ],
-    "roleName": "Sports Officer"
+    "roleName": "Media and Marketing Officer (x2)"
   },
   {
     "roleDescription": [

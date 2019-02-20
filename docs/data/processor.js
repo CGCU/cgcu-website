@@ -66,5 +66,6 @@ rl.on('line', (line) => {
 });
 
 rl.on('close', () => {
+  if (currRole.roleName) pushRole();
   console.log(JSON.stringify(roles));
 });
