@@ -248,7 +248,7 @@
                 let list2 = "";
                 for (let i = 0; i < numRoles; i++) {
                     let descObj = roleDescriptions[i];
-                    let toAppend = `<li><a href="#${descObj.id}" onclick="scrollToPosition(event, this)">${descObj.roleName}</a></li>`;
+                    let toAppend = `<li><a href="#${descObj.roleName.toLowerCase().replace(' ', '-')}" onclick="scrollToPosition(event, this)">${descObj.roleName}</a></li>`;
                     if(i < numRolesInEachList) {
                         list1 += toAppend;
                     } else {
@@ -295,7 +295,7 @@
 
                     // glue it all together
                     $("#roleDescriptions").append(
-                        `<div class="container page-subtitle" id="${descObj.id}">
+                        `<div class="container page-subtitle" id="${descObj.roleName.toLowerCase().replace(' ', '-')}">
                             <h3>${descObj.roleName}</h3>
                         </div>
                         <div class="container well white-bkg">
