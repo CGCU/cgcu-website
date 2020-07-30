@@ -21,7 +21,6 @@ Redirect 301 /rugby https://union.ic.ac.uk/guilds/rugby
 Redirect 302 /tickets https://www.imperialcollegeunion.org/shop/club-society-project-products/city-guilds-union-products/23894/final-release-welcome-dinner-tickets-
 Redirect 302 /officeuse https://docs.google.com/document/d/12SQ7254N63Ldso-PI2xPcsYmCQPWc3D3xnJ60I_7H-8/view
 Redirect 302 /overheard https://goo.gl/forms/UdKDRIr2r7Wmzv3C2
-Redirect 302 /ah https://calendly.com/cgcu-president
 Redirect 302 /shop https://www.imperialcollegeunion.org/shop/club-society-project-products/city-&-guilds-union-products
 Redirect 302 /dinner https://www.facebook.com/events/538834613239338/
 Redirect 302 /talk https://docs.google.com/presentation/d/1Y26fXN7j_VNBlKvYiMmwTLr9nY5nU-P4uxskZpeYRTE/edit#slide=id.g3f7713aa97_0_61
@@ -29,6 +28,26 @@ Redirect 302 /enter mailto:guilds.regalia@imperial.ac.uk?subject=Regalia%20Compe
 Redirect 302 /schools https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTB4xSKdXaW9ZImpjhtGm4stBUNk00TFg2TUwyTUFHTlpYRkMxSkY4V0EzVy4u
 Redirect 302 /diversity https://www.facebook.com/events/293123184877438/
 Redirect 302 /dogs http://cgcupuppies2019.eventbrite.co.uk/
+Redirect 302 /wiki https://wiki.imperial.ac.uk/display/ISUC/
+Redirect 302 /colours https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTB4xSKdXaW9ZImpjhtGm4stBUOEk5MEFWNjJPSlFKTjFDNEQ2S0tLUElHNS4u
+Redirect 302 /colors /colours
+Redirect 302 /CGCUFreshers2019 /freshers
+Redirect 302 /cgcufreshers2019 /freshers
+Redirect 302 /CGCUfreshers2019 /freshers
+Redirect 302 /spanner /assets/spanner2018.pdf
+
+
+
+
+Redirect 302 /reps https://www.imperialcollegeunion.org/your-union/your-representatives/representation/academic-representation-network
+Redirect 302 /reps.html https://www.imperialcollegeunion.org/your-union/your-representatives/representation/academic-representation-network
+Redirect 302 /reps.php https://www.imperialcollegeunion.org/your-union/your-representatives/representation/academic-representation-network
+Redirect 302 /reps.cgi https://www.imperialcollegeunion.org/your-union/your-representatives/representation/academic-representation-network
+Redirect 302 /tax https://www.imperial.ac.uk/study/campus-life/accommodation/private-accommodation/council-tax/
+Redirect 302 /tax.html https://www.imperial.ac.uk/study/campus-life/accommodation/private-accommodation/council-tax/
+Redirect 302 /tax.php https://www.imperial.ac.uk/study/campus-life/accommodation/private-accommodation/council-tax/
+Redirect 302 /tax.cgi https://www.imperial.ac.uk/study/campus-life/accommodation/private-accommodation/council-tax/
+
 
 # Guildsheet links [these should not be changed as these links are in print]
 Redirect 301 /gs/stanlee https://www.youtube.com/watch?v=HnByuUqMeko
@@ -47,6 +66,8 @@ Redirect 301 /bolt.html /guildsheet.html
 
 # Temporary Redirects
 Redirect 301 /nominate https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTBxNyXCTUmGBBoMkdHn3myE5UMVdLRklSV0xBMFpYSEsxR0dTUVpNQ1A0SC4u
+Redirect 301 /icuawards https://union.ic.ac.uk/guilds/cgcu/icu-awards/login.php
+Redirect 301 /sportsawards https://union.ic.ac.uk/guilds/cgcu/icu-sports-awards/login.php
 
 # Rewrite rules
 RewriteEngine On
