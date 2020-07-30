@@ -4,6 +4,6 @@
 
 # .idea
 .idea
-
+.sync-config.cson
 # database password
 cgcu/not-public/database.ini
