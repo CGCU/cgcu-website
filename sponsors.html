@@ -144,15 +144,19 @@
 
           <!-- FOOTER -->
           <footer>
-              <div class="container well white-bkg footer-container">
-                  <img class="img-responsive" src="images/footer.png" alt="Footer Divider" width="1253" height="232">
+            <div class="container well white-bkg footer-container">
+                <img class="img-responsive" src="images/footer.png" alt="Footer Divider" width="1253" height="232">
 
-                  <div class="text-center text-muted">
-                      &copy; City and Guilds College Union 2018
-                  </div>
-              </div>
-          </footer>
-          <!-- END FOOTER -->
+                <div id="footer-text" class="text-center text-muted">
+                    &copy; City and Guilds College Union 
+                </div>
+            </div>
+            <script>
+                function currentYear() { return (new Date()).getFullYear(); }
+                document.getElementById("footer-text").innerText += " " + currentYear();
+            </script>
+        </footer>
+        <!-- END FOOTER -->
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
         <script src="js/jquery.min.js"></script>
