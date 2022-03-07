@@ -18,11 +18,11 @@ Redirect 301 /robotics http://icrobotics.co.uk
 Redirect 301 /rugby https://union.ic.ac.uk/guilds/rugby
 
 # Aliases
-Redirect 302 /tickets https://www.imperialcollegeunion.org/shop/club-society-project-products/city-guilds-union-products/23894/final-release-welcome-dinner-tickets-
+Redirect 302 /tickets https://www.imperialcollegeunion.org/shop/club-society-project-products/city-%26-guilds-union-products
 Redirect 302 /officeuse https://docs.google.com/document/d/12SQ7254N63Ldso-PI2xPcsYmCQPWc3D3xnJ60I_7H-8/view
-Redirect 302 /overheard https://goo.gl/forms/UdKDRIr2r7Wmzv3C2
 Redirect 302 /shop https://www.imperialcollegeunion.org/shop/club-society-project-products/city-&-guilds-union-products
 Redirect 302 /dinner https://www.facebook.com/events/538834613239338/
+Redirect 302 /overheard https://docs.google.com/forms/d/e/1FAIpQLSdxAJzCj-gEXYMG3krkYW8pKxjL-MiisX30FsnYEKO-gb1nHA/viewform?usp=sf_link
 Redirect 302 /talk https://docs.google.com/presentation/d/1Y26fXN7j_VNBlKvYiMmwTLr9nY5nU-P4uxskZpeYRTE/edit#slide=id.g3f7713aa97_0_61
 Redirect 302 /enter mailto:guilds.regalia@imperial.ac.uk?subject=Regalia%20Competition
 Redirect 302 /schools https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTB4xSKdXaW9ZImpjhtGm4stBUNk00TFg2TUwyTUFHTlpYRkMxSkY4V0EzVy4u
@@ -31,13 +31,15 @@ Redirect 302 /dogs http://cgcupuppies2019.eventbrite.co.uk/
 Redirect 302 /wiki https://wiki.imperial.ac.uk/display/ISUC/
 Redirect 302 /colours https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTB4xSKdXaW9ZImpjhtGm4stBUOEk5MEFWNjJPSlFKTjFDNEQ2S0tLUElHNS4u
 Redirect 302 /colors /colours
-Redirect 302 /CGCUFreshers2019 /freshers
-Redirect 302 /cgcufreshers2019 /freshers
-Redirect 302 /CGCUfreshers2019 /freshers
+Redirect 302 /CGCUFreshers2020 /freshers
+Redirect 302 /cgcufreshers2020 /freshers
+Redirect 302 /CGCUfreshers2020 /freshers
 Redirect 302 /spanner /assets/spanner2018.pdf
-
-
-
+Redirect 302 /pubcrawl https://www.facebook.com/events/416894032345889/
+Redirect 302 /csp https://app.nuclino.com/CGCU-Clubs/Wiki
+Redirect 302 /freshersquest2020submit https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTByFcuCmWQ_VIt6InTZza9EpURERISk45UUlXWUVBTFQ1UFNHWDJJR0hYNy4u
+Redirect 302 /freshersquest2020 /freshersquest2020.html
+Redirect 302 /locationphotos https://imperiallondon.sharepoint.com/sites/CGCUFreshersQuest-CO/Shared%20Documents/Forms/AllItems.aspx
 
 Redirect 302 /reps https://www.imperialcollegeunion.org/your-union/your-representatives/representation/academic-representation-network
 Redirect 302 /reps.html https://www.imperialcollegeunion.org/your-union/your-representatives/representation/academic-representation-network
@@ -48,6 +50,11 @@ Redirect 302 /tax.html https://www.imperial.ac.uk/study/campus-life/accommodatio
 Redirect 302 /tax.php https://www.imperial.ac.uk/study/campus-life/accommodation/private-accommodation/council-tax/
 Redirect 302 /tax.cgi https://www.imperial.ac.uk/study/campus-life/accommodation/private-accommodation/council-tax/
 
+Redirect 302 /dinner2019 https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTB4e2l31p9yRJpn-4YrofTTlUQ0pDVzhMRlhJSFNQMENWRzVXSEc1N09XUS4u
+Redirect 302 /freshersslides https://docs.google.com/presentation/d/1_KR_hUBpndaQ3Yq_K9ji0P0FYu4u6NRaoxAGQv-tDsk/edit?usp=sharing
+Redirect 302 /fresherslides https://docs.google.com/presentation/d/1_KR_hUBpndaQ3Yq_K9ji0P0FYu4u6NRaoxAGQv-tDsk/edit?usp=sharing
+Redirect 302 /ticketmanager https://glasc.kianmayne.co.uk/?key=DuVSM7xMLKMeRIDhSOC5YyZc9sJcaO6KWseVRdTZXb0goiJH1YiWBK8l1zNAw6D
+Redirect 302 /ticketscanner https://glasc.kianmayne.co.uk/events/11/scan
 
 # Guildsheet links [these should not be changed as these links are in print]
 Redirect 301 /gs/stanlee https://www.youtube.com/watch?v=HnByuUqMeko

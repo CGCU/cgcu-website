@@ -16,7 +16,7 @@
                 <br><br> Please note this script should not be accessed directly as a webpage.";
         die();
     }*/
-	$table = "committee";
+	$table = "committee1920";
 
     // Perform database query
     // Load databse config info

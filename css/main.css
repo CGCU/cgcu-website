@@ -161,45 +161,21 @@ h2.page-title{
 .carousel .item {
     height: 500px;
     background-color: #777;
+    max-width: 100%;
+
 }
 .carousel-inner > .item > img {
     position: inherit;
     top: 0;
     left: 0;
     min-width: 1024px;
+    max-width: 100%;
     height: 500px;
     margin: 0 auto;
 }
 
 /* HOME PAGE CAROUSEL IMAGES */
 
-#slide_01 {
-    background: url("../images/freshers/freshers-banner.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: bottom;
-}
-
-#slide_02 {
-    background: url("../images/sponsors/sponsors-banner.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: top;
-}
-
-#slide_03 {
-    background: url("../images/home/dogs.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: top;
-
-}
 
 /* RESPONSIVE CSS */
 
